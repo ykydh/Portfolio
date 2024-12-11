@@ -2,18 +2,19 @@
 
 Below are examples of my work on technical writing projects.
 
+## **Memo**
+The Proposal, Usability Testing and Recommendation Report below outlines a usability experiment for the Microsoft To Do application.
+The Proposal contains methods of the experiment, a schedule and a informed consent form. 
+
 # **Proposal**
-##  Memo
 Proposal
 https://github.com/ykydh/Portfolio/blob/main/projects/Proposal.pdf
 
 # **Usability Testing**
-## Memo
 Usability Testing
 https://github.com/ykydh/Portfolio/blob/main/projects/Usability%20Test.pdf
 
 # **Recommendation Report**
-## Memo
 Recommendation Report
 https://github.com/ykydh/Portfolio/blob/main/projects/Recommendation.pdf
 
