@@ -10,7 +10,7 @@ The Usability Testing
 ## **Proposal**
 Proposal
 https://github.com/ykydh/Portfolio/blob/main/projects/Proposal.pdf <br />
-![Proposal]https://github.com/ykydh/Portfolio/blob/main/projects/Proposal.pdf
+[embed]https://github.com/ykydh/Portfolio/blob/main/projects/Proposal.pdf[/embed]
 ## **Usability Testing**
 Usability Testing
 https://github.com/ykydh/Portfolio/blob/main/projects/Usability%20Test.pdf
