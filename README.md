@@ -9,19 +9,18 @@ The Usability Testing
 
 ## **Proposal**
 Proposal
-![Proposal Preview](https://github.com/ykydh/Portfolio/blob/main/projects/displays/Proposal/Proposal-2.png)
-
 [Link to Proposal PDF](https://github.com/ykydh/Portfolio/blob/main/projects/Proposal.pdf)
+
+![Proposal Preview](https://github.com/ykydh/Portfolio/blob/main/projects/displays/Proposal/Proposal-2.png)
 
 ## **Usability Testing**
 Usability Testing
-![Usability Test Preview](https://github.com/ykydh/Portfolio/blob/main/projects/displays/Usability%20Test/Usability%20Test-01.png)
-
 [Link to Usability Testing PDF](https://github.com/ykydh/Portfolio/blob/main/projects/Usability%20Test.pdf)
+
+![Usability Test Preview](https://github.com/ykydh/Portfolio/blob/main/projects/displays/Usability%20Test/Usability%20Test-01.png)
 
 ## **Recommendation Report**
 Recommendation Report
+Link to Recommendation Report PDF](https://github.com/ykydh/Portfolio/blob/main/projects/Recommendation.pdf)
+
 ![Recommendation Report Preview](https://github.com/ykydh/Portfolio/blob/main/projects/displays/Recommendation/Recommendation-02.png)
-
-[Link to Recommendation Report PDF](https://github.com/ykydh/Portfolio/blob/main/projects/Recommendation.pdf)
-
