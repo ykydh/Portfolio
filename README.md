@@ -8,10 +8,10 @@ The Proposal, Usability Testing, and Recommendation Report below outline a usabi
 The Proposal contains methods of the experiment, benefits, personnel and equipment, a schedule, and an informed consent form.<br />
 
 #### **Things I learned from this project.**
-- **Effective Audience Analysis**
- - \I developed the skill to thoroughly analyze the demographics of my audience, enabling me to craft persuasive and targeted arguments that resonate with their specific needs and preferences.
-- **Clarity and Precision in Writing**
- - I honed my ability to structure documents in a way that enhances readability and engagement, ensuring each component is clearly organized and tailored to make the content accessible and compelling to the audience."
+- **Effective Audience Analysis**:
+  - I developed the skill to thoroughly analyze the demographics of my audience, enabling me to craft persuasive and targeted arguments that resonate with their specific needs and preferences.
+- **Clarity and Precision in Writing**:
+  - I honed my ability to structure documents in a way that enhances readability and engagement, ensuring each component is clearly organized and tailored to make the content accessible and compelling to the audience."
 
 ## **Proposal**
 Proposal
