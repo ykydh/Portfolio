@@ -1,3 +1,4 @@
+
 # **My Portfolio**
 
 Below are examples of my work on technical writing projects.
@@ -21,6 +22,6 @@ Usability Testing
 
 ## **Recommendation Report**
 Recommendation Report
-Link to Recommendation Report PDF](https://github.com/ykydh/Portfolio/blob/main/projects/Recommendation.pdf)
+[Link to Recommendation Report PDF](https://github.com/ykydh/Portfolio/blob/main/projects/Recommendation.pdf)
 
 ![Recommendation Report Preview](https://github.com/ykydh/Portfolio/blob/main/projects/displays/Recommendation/Recommendation-02.png)
