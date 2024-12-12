@@ -4,11 +4,14 @@
   [Linkedin](https://www.linkedin.com/in/yutaro-kiyota-0b8ab7307/)<br />
 
 ## **Skills**
- -  C++ -  Python -  Data Structure -  Technical - Communication -  Leadership<br />
+ -  C++ 
+ -  Python 
+ -  Data Structure 
+ -  Technical 
+ - Communication 
+ -  Leadership<br />
 
-## **My Portfolio**
-
-Below are examples of my work on technical writing projects.
+<ins>Below are examples of my work on technical writing projects.</ins>
 
 ## **Memo**
 The Proposal, Usability Testing, and Recommendation Report below outline a usability experiment for the Microsoft To Do application.<br />
