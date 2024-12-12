@@ -15,9 +15,9 @@ The Recommendation Report contains the results of the test, analysis about the r
 - **Effective Audience Analysis**:
   - I developed the skill to thoroughly analyze the demographics of my audience, enabling me to craft persuasive and targeted arguments that resonate with their specific needs and preferences.
 - **Clarity and Precision in Writing**:
-  - I honed my ability to structure documents in a way that enhances readability and engagement, ensuring each component is clearly organized and tailored to make the content accessible and compelling to the audience."
+  - I honed my ability to structure documents in a way that enhances readability and engagement, ensuring each component is clearly organized and tailored to make the content accessible and compelling to the audience."<br />
 
-*To open each file click on the images.
+*To open following files click on the images.
 
 ## **Proposal**
 
