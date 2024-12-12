@@ -9,6 +9,8 @@ The Proposal, Usability Testing, and Recommendation Report below outline a usabi
 The Proposal contains methods of the experiment, benefits, personnel and equipment, a schedule, and an informed consent form.<br />
 
 The Usability Testing includes detailed test plan like each tasks which will be done by participants, way of calculating error rates, test log form,and  pre and post-screening questionnaire. <br />
+
+The Recommendation Report contains the results of the test, analysis about the result and effectiveness of Microsoft To Do, and recommendations to imporove Microsoft To Do to make it more userfriendly.
 #### **Things I learned from this project.**
 - **Effective Audience Analysis**:
   - I developed the skill to thoroughly analyze the demographics of my audience, enabling me to craft persuasive and targeted arguments that resonate with their specific needs and preferences.
