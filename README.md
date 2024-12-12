@@ -17,7 +17,7 @@ The Recommendation Report contains the results of the test, analysis about the r
 - **Clarity and Precision in Writing**:
   - I honed my ability to structure documents in a way that enhances readability and engagement, ensuring each component is clearly organized and tailored to make the content accessible and compelling to the audience."<br />
 
-*To open following files click on the images.
+<u>*To open following files click on the images.</u>
 
 ## **Proposal**
 
