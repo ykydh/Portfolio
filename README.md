@@ -1,10 +1,10 @@
 # **Yutaro Kiyota**
   I am a sophomore pursuing a Bachelor’s degree in Computer Science at Missouri University of Science and Technology. I am interested in embedded system development and Cyber Security <br />
-
-## **Skills**
-  C++  Python  Data Structure  Technical Communication  Leadership<br />
   [Resume](https://github.com/ykydh/Portfolio/blob/main/projects/Resume_.pdf)<br />
   [Linkedin](https://www.linkedin.com/in/yutaro-kiyota-0b8ab7307/)<br />
+
+## **Skills**
+ -  C++ -  Python -  Data Structure -  Technical - Communication -  Leadership<br />
 
 ## **My Portfolio**
 
