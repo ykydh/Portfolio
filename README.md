@@ -4,9 +4,11 @@
 Below are examples of my work on technical writing projects.
 
 # **Memo**
-The Proposal, Usability Testing, and Recommendation Report below outline a usability experiment for the Microsoft To Do application.
+The Proposal, Usability Testing, and Recommendation Report below outline a usability experiment for the Microsoft To Do application.<br />
+
 The Proposal contains methods of the experiment, benefits, personnel and equipment, a schedule, and an informed consent form.<br />
 
+The Usability Testing includes detailed test plan like each tasks which will be done by participants, way of calculating error rates, test log form,and  pre and post-screening questionnaire. <br />
 #### **Things I learned from this project.**
 - **Effective Audience Analysis**:
   - I developed the skill to thoroughly analyze the demographics of my audience, enabling me to craft persuasive and targeted arguments that resonate with their specific needs and preferences.
