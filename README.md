@@ -1,4 +1,6 @@
-
+# **Yutaro Kiyota**
+  ##**I am a sophomore pursuing a Bachelor’s degree in Computer Science at Missouri University of Science and Technology.**
+  [Linkedin](https://www.linkedin.com/in/yutaro-kiyota-0b8ab7307/)<br />
 # **My Portfolio**
 
 Below are examples of my work on technical writing projects.
