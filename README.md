@@ -7,8 +7,7 @@
  -  C++ 
  -  Python 
  -  Data Structure 
- -  Technical 
- - Communication 
+ -  Technical Communication 
  -  Leadership<br /><br />
 
 <ins>Below are examples of my work on technical writing projects.</ins>
