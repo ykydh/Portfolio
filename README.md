@@ -24,7 +24,7 @@ The Recommendation Report presents a comprehensive overview of the test findings
 - **Effective Audience Analysis**:
   - I developed the skill to thoroughly analyze the demographics of my audience, enabling me to craft persuasive and targeted arguments that resonate with their specific needs and preferences.
 - **Clarity and Precision in Writing**:
-  - I honed my ability to structure documents in a way that enhances readability and engagement, ensuring each component is clearly organized and tailored to make the content accessible and compelling to the audience."<br />
+  - I honed my ability to structure documents in a way that enhances readability and engagement, ensuring each component is clearly organized and tailored to make the content accessible and compelling to the audience.<br />
 - **Data Analysis and Interpretation**:
   - I developed the skill prioritizing issues based on impact and urgency.
 - **Visual Communication**
