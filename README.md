@@ -22,6 +22,10 @@
 - Techinical Writing Portfolio
 ## **Programming Portfolio**
 ### **Black Jack**
+This project is a implementation of singlr player Black Jack. A user will initially get random amount of money and aim to gain more money on their account.</br>
+There is a special rule for this Black Jack. This version will give suggestions for a player and amount of money they will get or lose will be changed based on how the player react to the suggestion.
+- Player Following the Recommended Advice: If the player ends up winning, update their balance according to the standard payout scheme. If they lose, 20% of the wager in that round will be refunded. 
+- Player Ignoring the Recommended Advice: If the player ends up winning, they will receive an additional 80% on top of their original wager as winnings.  
 [Black Jack main](https://github.com/ykydh/Portfolio/blob/main/projects/Codes/Jack.cpp)</br>
 [Black Jack Header](https://github.com/ykydh/Portfolio/blob/main/projects/Codes/Black5.h)</br>
 [Black Jack Implementation](https://github.com/ykydh/Portfolio/blob/main/projects/Codes/Black5.cpp)</br>
