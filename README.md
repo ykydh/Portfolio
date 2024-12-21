@@ -13,7 +13,9 @@
 #### **Contents Below**
 - Programming Portfolio
 - Techinical Writing Portfolio
-## **Memo**
+## **Programming Portfolio**
+
+## **Technical Writing Portfolio**
 The Proposal, Usability Testing, and Recommendation Report below outline a usability experiment for the Microsoft To Do application.<br />
 
 The Proposal contains methods of the experiment, benefits, personnel and equipment, a schedule, and an informed consent form.<br />
