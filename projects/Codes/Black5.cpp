@@ -1,6 +1,4 @@
 //Implimentation
-//Name: Yutaro Kiyota
-//Homework5
 #include"Black5.h"
 
 int random(const int x,const int y){

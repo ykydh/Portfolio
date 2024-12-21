@@ -1,6 +1,4 @@
 //Header
-//Name: Yutaro Kiyota
-//Homework5
 #ifndef BLACK_H_
 #define BLACK_H_
 #include<iostream>

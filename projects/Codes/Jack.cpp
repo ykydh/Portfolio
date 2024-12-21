@@ -1,6 +1,4 @@
 //Main function
-//Name: Yutaro Kiyota
-//Homework5
 #include"Black5.h"
 int tim = 0;
 int win = 0;
