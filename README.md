@@ -10,7 +10,9 @@
  -  Technical Communication 
  -  Leadership<br /><br />
 
-<ins>Below are examples of my work on technical writing projects.</ins>
+#### **Contents Below**
+- Programming Portfolio
+- Techinical Writing Portfolio
 ## **Memo**
 The Proposal, Usability Testing, and Recommendation Report below outline a usability experiment for the Microsoft To Do application.<br />
 
