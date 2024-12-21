@@ -15,9 +15,9 @@
 - Techinical Writing Portfolio
 ## **Programming Portfolio**
 ### **Black Jack**
-[Black Jack main](https://github.com/ykydh/Portfolio/blob/main/projects/Codes/Jack.cpp)
-[Black Jack Header](https://github.com/ykydh/Portfolio/blob/main/projects/Codes/Black5.h)
-[Black Jack Implementation](https://github.com/ykydh/Portfolio/blob/main/projects/Codes/Black5.cpp)
+[Black Jack main](https://github.com/ykydh/Portfolio/blob/main/projects/Codes/Jack.cpp)</ins>
+[Black Jack Header](https://github.com/ykydh/Portfolio/blob/main/projects/Codes/Black5.h)</ins>
+[Black Jack Implementation](https://github.com/ykydh/Portfolio/blob/main/projects/Codes/Black5.cpp)</ins>
 ## **Technical Writing Portfolio**
 The Proposal, Usability Testing, and Recommendation Report below outline a usability experiment for the Microsoft To Do application.<br />
 
