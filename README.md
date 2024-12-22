@@ -45,7 +45,9 @@ XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX<br />
 YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY<br />
 
 Example Output<br />
-HI
+HI<br />
+
+#### **Codes**
 
 [Main file](https://github.com/ykydh/Portfolio/blob/main/projects/Codes/main.cpp)<br />
 [Tree Node](https://github.com/ykydh/Portfolio/blob/main/projects/Codes/TreeNode.h)<br />
@@ -54,6 +56,8 @@ HI
 
 ### **Ongoing Project - Machine Learning**
 This project aim to implement simple machine learning model with C++.<br />
+
+#### **Codes**
 
 [main.cpp](https://github.com/ykydh/Portfolio/blob/main/projects/Codes/AI/main.cpp)<br />
 [AI.h](https://github.com/ykydh/Portfolio/blob/main/projects/Codes/AI/AI.h)<br />
