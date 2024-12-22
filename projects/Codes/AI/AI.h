@@ -39,4 +39,8 @@ void print_X(double **x,int elements,int sets);
 
 //This function is trying to multiply matrixes, transpose have done in init function so just product
 std::vector<std::vector<double>> Product(std::vector<std::vector<double>> input,std::vector<std::vector<double>>weights);
+
+void printMatrix(std::vector<std::vector<double>> matrix);
+
+
 #endif

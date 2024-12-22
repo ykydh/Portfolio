@@ -1,5 +1,6 @@
 #include<iostream>
 #include<random>
+#include<iomanip>
 
 #include "AI.h"
 
@@ -109,6 +110,23 @@ std::vector<std::vector<double>> LayerDense::forward(std::vector<std::vector<dou
     return output;
 }
 
+void printMatrix(std::vector<std::vector<double>> matrix)
+{
+    int rows = matrix.size();
+    int cols = matrix[0].size();
+
+    if(rows <= 0)
+        throw std::out_of_range("No elements in the passed matrix");
+
+    for(int i = 0; i < rows; i++)
+    {
+        for(int j = 0; j < cols; j++)
+        {
+            std::cout<<std::setprecision(3)<<matrix[i][j]<<"  ";
+        }
+        std::cout<<"\n";
+    }
+}
 
 void delete_X(double ** X,int set)
 {
