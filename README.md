@@ -52,7 +52,7 @@ HI
 [My map(h)](https://github.com/ykydh/Portfolio/blob/main/projects/Codes/MyMap.h)<br />
 [My map(hpp)](https://github.com/ykydh/Portfolio/blob/main/projects/Codes/MyMap.hpp)<br />
 
-#### **Ongoing Project - Machine Learning**
+### **Ongoing Project - Machine Learning**
 This project aim to implement simple machine learning model with C++.<br />
 
 [main.cpp]()<br />
