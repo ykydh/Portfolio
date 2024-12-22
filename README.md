@@ -55,9 +55,9 @@ HI
 ### **Ongoing Project - Machine Learning**
 This project aim to implement simple machine learning model with C++.<br />
 
-[main.cpp]()<br />
-[AI.h]()<br />
-[AI.cpp]()<br /> 
+[main.cpp](https://github.com/ykydh/Portfolio/blob/main/projects/Codes/AI/main.cpp)<br />
+[AI.h](https://github.com/ykydh/Portfolio/blob/main/projects/Codes/AI/AI.h)<br />
+[AI.cpp](https://github.com/ykydh/Portfolio/blob/main/projects/Codes/AI/AI.cpp)<br /> 
 
 
 ## **Technical Writing Portfolio**
