@@ -49,14 +49,14 @@ void print_X(double **x,int elements,int sets)
     return;
 }
 
-std::vector<std::vector<double>> Product(std::vector<std::vector<double>> input,std::vector<std::vector<double>>weights)
+std::vector<std::vector<double> > Product(std::vector<std::vector<double> > input,std::vector<std::vector<double> >weights)
 {
     int input_rows = input.size();
     int input_cols = input[0].size();
     // int weights_rows = weights.size();
     int weights_cols = weights[0].size();
     
-    std::vector<std::vector<double>> product;
+    std::vector<std::vector<double> > product;
 
     for(int i = 0; i< input_rows;i++)
     {
@@ -76,41 +76,34 @@ std::vector<std::vector<double>> Product(std::vector<std::vector<double>> input,
 
 
 //followings are member functions 
-double** LayerDense::initial()
+// LayerDense(int n_inputs, int n_neurons) {
+//     this->n_inputs = n_inputs;
+//     this->n_neurons = n_neurons;
+
+//     // Initialize weights
+//     std::random_device rd;
+//     std::mt19937 gen(rd());
+//     std::normal_distribution<> dist(0.0, 1.0);
+
+//     weights = std::vector<std::vector<double> >(n_inputs, std::vector<double>(n_neurons, 0.0));
+//     for (int i = 0; i < n_inputs; i++) {
+//         for (int j = 0; j < n_neurons; j++) {
+//             weights[i][j] = 0.1 * dist(gen);
+//         }
+//     }
+
+//     // Initialize biases
+//     biases = std::vector<double>(n_neurons, 0.0);
+// }
+
+std::vector<std::vector<double> > LayerDense::forward(std::vector<std::vector<double> > input)
 {
-    std::random_device rd;
-    std::mt19937 gen(rd());
-    std::normal_distribution<> dist(0.0, 1.0);
-    double ** weight = new double *[n_inputs];
-    double * bias = new double [n_neurons];
-    
-    for(int k = 0;k<n_inputs;k++)
-    {
-        weight[k] = new double[n_neurons];
-    }
-
-    for(int i = 0; i < n_inputs;i++)
-    {
-        for(int j = 0; j < n_neurons;j++)
-        {
-            weight[i][j] = 0.1 * dist(gen);
-        }
-    }
-
-    for(int l = 0; l < n_neurons;l++)
-    {
-        bias[l] = 0;
-    }
-}
-
-std::vector<std::vector<double>> LayerDense::forward(std::vector<std::vector<double>> input)
-{
-    std::vector<std::vector<double>> output;
-    output = Product(input,weight);
+    std::vector<std::vector<double> > output;
+    output = Product(input,weights);
     return output;
 }
 
-void printMatrix(std::vector<std::vector<double>> matrix)
+void printMatrix(std::vector<std::vector<double> > matrix)
 {
     int rows = matrix.size();
     int cols = matrix[0].size();
@@ -136,4 +129,22 @@ void delete_X(double ** X,int set)
     }
     delete[] X;
     return;
+}
+
+
+std::vector<std::vector<double>> convert(double** X, int element, int set) {
+    if (!X || set <= 0 || element <= 0) {
+        throw std::invalid_argument("Invalid input parameters");
+    }
+
+    std::vector<std::vector<double>> converted;
+    converted.reserve(set); // Reserve space for the outer vector
+
+    for (int i = 0; i < set; i++) {
+        // Initialize inner vector directly from array
+        std::vector<double> temp(X[i], X[i] + element);
+        converted.push_back(std::move(temp)); // Use move semantics
+    }
+
+    return converted;
 }
