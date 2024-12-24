@@ -14,7 +14,7 @@ class LayerDense
         std::mt19937 gen(rd());
         std::normal_distribution<> dist(0.0, 1.0);
 
-        weights = std::vector<std::vector<double>>(n_inputs, std::vector<double>(n_neurons, 0.0));
+        weights = std::vector<std::vector<double> >(n_inputs, std::vector<double>(n_neurons, 0.0));
         for (int i = 0; i < n_inputs; i++) {
             for (int j = 0; j < n_neurons; j++) {
                 weights[i][j] = 0.1 * dist(gen);  // Randomly initialize weights scaled by 0.1

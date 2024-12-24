@@ -132,19 +132,36 @@ void delete_X(double ** X,int set)
 }
 
 
-std::vector<std::vector<double>> convert(double** X, int element, int set) {
-    if (!X || set <= 0 || element <= 0) {
-        throw std::invalid_argument("Invalid input parameters");
+// std::vector<std::vector<double> > convert(double** X, int element, int set) {
+//     if (!X || set <= 0 || element <= 0) {
+//         throw std::invalid_argument("Invalid input parameters");
+//     }
+
+//     std::vector<std::vector<double> > converted;
+//     converted.reserve(set); // Reserve space for the outer vector
+//     //next few lines cause a seg fault. 
+//     for (int i = 0; i < set; i++) {
+//         // Initialize inner vector directly from array
+//         std::vector<double> temp(X[i], X[i] + element);
+//         converted.push_back(std::move(temp)); // Use move semantics
+//     }
+
+//     return converted;
+// }
+
+
+std::vector<std::vector<double> > convert(double ** X,int element,int set)
+{
+    std::vector<std::vector<double> > converted;
+    std::vector<double> temp;
+    for(int i = 0; i < set ;i++)
+    {
+        temp.clear();
+        for(int j = 0; j < element;j++)
+        {
+            temp.push_back(X[i][j]);
+        }
+        converted.push_back(temp);
     }
-
-    std::vector<std::vector<double>> converted;
-    converted.reserve(set); // Reserve space for the outer vector
-
-    for (int i = 0; i < set; i++) {
-        // Initialize inner vector directly from array
-        std::vector<double> temp(X[i], X[i] + element);
-        converted.push_back(std::move(temp)); // Use move semantics
-    }
-
     return converted;
 }
