@@ -78,27 +78,6 @@ std::vector<std::vector<double> > Product(std::vector<std::vector<double> > inpu
 }
 
 
-//followings are member functions 
-// LayerDense(int n_inputs, int n_neurons) {
-//     this->n_inputs = n_inputs;
-//     this->n_neurons = n_neurons;
-
-//     // Initialize weights
-//     std::random_device rd;
-//     std::mt19937 gen(rd());
-//     std::normal_distribution<> dist(0.0, 1.0);
-
-//     weights = std::vector<std::vector<double> >(n_inputs, std::vector<double>(n_neurons, 0.0));
-//     for (int i = 0; i < n_inputs; i++) {
-//         for (int j = 0; j < n_neurons; j++) {
-//             weights[i][j] = 0.1 * dist(gen);
-//         }
-//     }
-
-//     // Initialize biases
-//     biases = std::vector<double>(n_neurons, 0.0);
-// }
-
 std::vector<std::vector<double> > LayerDense::forward(std::vector<std::vector<double> > input)
 {
     std::vector<std::vector<double> > output;
