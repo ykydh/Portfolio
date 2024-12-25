@@ -49,28 +49,31 @@ void print_X(double **x,int elements,int sets)
     return;
 }
 
-std::vector<std::vector<double> > Product(std::vector<std::vector<double> > input,std::vector<std::vector<double> >weights)
+std::vector<std::vector<double> > Product(std::vector<std::vector<double> > input,std::vector<std::vector<double> > weights) 
 {
     int input_rows = input.size();
     int input_cols = input[0].size();
-    // int weights_rows = weights.size();
     int weights_cols = weights[0].size();
-    
-    std::vector<std::vector<double> > product;
 
-    for(int i = 0; i< input_rows;i++)
-    {
-        for(int j = 0; j < weights_cols; j++)
-        {
+    // Validate dimensions
+    if (input_cols != weights.size()) {
+        throw std::invalid_argument("Matrix dimensions do not match for multiplication");
+    }
+
+    // Initialize the product matrix with appropriate dimensions
+    std::vector<std::vector<double> > product(input_rows, std::vector<double>(weights_cols, 0.0));
+
+    // Perform matrix multiplication
+    for (int i = 0; i < input_rows; ++i) {
+        for (int j = 0; j < weights_cols; ++j) {
             double temp = 0.0;
-            for(int k = 0; k < input_cols;k++)
-            {
+            for (int k = 0; k < input_cols; ++k) {
                 temp += input[i][k] * weights[k][j];
             }
             product[i][j] = temp;
         }
-        
     }
+
     return product;
 }
 
@@ -132,22 +135,6 @@ void delete_X(double ** X,int set)
 }
 
 
-// std::vector<std::vector<double> > convert(double** X, int element, int set) {
-//     if (!X || set <= 0 || element <= 0) {
-//         throw std::invalid_argument("Invalid input parameters");
-//     }
-
-//     std::vector<std::vector<double> > converted;
-//     converted.reserve(set); // Reserve space for the outer vector
-//     //next few lines cause a seg fault. 
-//     for (int i = 0; i < set; i++) {
-//         // Initialize inner vector directly from array
-//         std::vector<double> temp(X[i], X[i] + element);
-//         converted.push_back(std::move(temp)); // Use move semantics
-//     }
-
-//     return converted;
-// }
 
 
 std::vector<std::vector<double> > convert(double ** X,int element,int set)
