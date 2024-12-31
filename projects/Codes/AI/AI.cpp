@@ -4,6 +4,8 @@
 #include <vector>
 #include <utility>
 #include <cmath> 
+#include <numeric>
+#include <algorithm>
 
 #include "AI.h"
 
@@ -30,14 +32,14 @@ double** create_X(int numElems,int numSets)
 }
 
 
-void print_X(double **x,int elements,int sets)
+void print_X(std::vector<std::vector<double> >x)
 {
     int count=0;
-    for(int i = 0; i < sets; i++)
+    for(int i = 0; i < x.size(); i++)
     {
         count = 0;
         std::cout <<"[";
-        for(int j = 0; j < elements; j++)
+        for(int j = 0; j < x[0].size(); j++)
         {
             std::cout<<x[i][j];
             if(count < 3)
@@ -107,13 +109,13 @@ void printMatrix(std::vector<std::vector<double> > matrix)
 }
 
 
-std::vector<std::vector<double> >forward(std::vector<std::vector<double> > input)
+std::vector<std::vector<double> > Activation_Relu::forward(std::vector<std::vector<double> > input)
 {
     if(input.size() < 1)
         throw std::invalid_argument("No value in the input vector");
     int rows = input.size();
     int cols = input[0].size();
-    std::vector<std::vector<double>> output(rows, std::vector<double>(cols, 0));
+    std::vector<std::vector<double> > output(rows, std::vector<double>(cols, 0));
 
 
         for(int i = 0; i < rows;i++)
@@ -131,6 +133,29 @@ std::vector<std::vector<double> >forward(std::vector<std::vector<double> > input
 }
 
 
+
+
+std::vector<double> Activation_Softmax::forward(std::vector<double> input) {
+    // Find the maximum value for numerical stability
+    double max = *std::max_element(input.begin(), input.end());
+    
+    // Exponentiate the shifted values
+    std::vector<double> temp(input.size());
+    for (size_t i = 0; i < input.size(); ++i) {
+        temp[i] = std::exp(input[i] - max);
+    }
+
+    // Calculate the sum of all exponentials
+    double sum = std::accumulate(temp.begin(), temp.end(), 0.0);
+
+    // Normalize to create probabilities
+    std::vector<double> output(input.size());
+    for (size_t i = 0; i < temp.size(); ++i) {
+        output[i] = temp[i] / sum;
+    }
+
+    return output;
+}
 
 
 
@@ -168,8 +193,8 @@ std::vector<std::vector<double> > convert(double ** X,int element,int set)
 
   
 
-std::pair<std::vector<std::vector<double>>, std::vector<int>> create_data(int points, int classes) {
-    std::vector<std::vector<double>> X(points * classes, std::vector<double>(2));
+std::pair<std::vector<std::vector<double> >, std::vector<int> > create_data(int points, int classes) {
+    std::vector<std::vector<double> > X(points * classes, std::vector<double>(2));
     std::vector<int> y(points * classes);
 
     std::random_device rd;
@@ -195,5 +220,6 @@ std::pair<std::vector<std::vector<double>>, std::vector<int>> create_data(int po
         }
     }
 
-    return {X, y}; // Return a pair containing X and y
+    return std::make_pair(X, y); // Correct way to create and return a pair
+;
 }

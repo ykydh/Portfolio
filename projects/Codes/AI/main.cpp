@@ -10,25 +10,28 @@ int main() {
     int element = 4;    // Number of columns (features)
 
     // Generate random input matrix X
-    double** X = create_X(element, set);  // Randomly generate a 3x4 input matrix
-    print_X(X, element, set);             // Print the input matrix
+    //double** X = create_X(element, set);  // Randomly generate a 3x4 input matrix
 
+    std::pair<std::vector<std::vector<double> >, std::vector<int> > result = create_data(100, set);
+    std::vector<std::vector<double> > X = result.first;
+    std::vector<int> y = result.second;
+
+
+
+    //print_X(X);             // Print the input matrix
+    std::vector<std::vector<double> > Layer_out;
+    std::vector<std::vector<double> > Activation_out;
     // Initialize two layers
-    LayerDense layer1(4, 5);              // 4 inputs, 5 neurons
-    LayerDense layer2(5, 2);              // 5 inputs (from layer1), 2 neurons
+    LayerDense layer1(2, 5);
+    Activation_Relu activation1;
+    Layer_out = layer1.forward(X);
+    Activation_out = activation1.forward(Layer_out);
+    print_X(Activation_out);
+    
+    
+    
 
-    // Perform forward propagation through the layers
-    auto output1 = layer1.forward(convert(X,element,set));                               // Forward pass through layer1
-    std::cout << "Layer 1 Output:\n";
-    printMatrix(output1);                                               // Print layer1 output
-
-    auto output2 = layer2.forward(output1);                             // Forward pass through layer2
-    std::cout << "Layer 2 Output:\n";
-    printMatrix(output2);                                               // Print layer2 output
-
-    // Clean up dynamically allocated memory for X
-    delete_X(X, set);
-
+    
     return 0;
 }
 
