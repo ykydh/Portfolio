@@ -23,7 +23,7 @@ class LayerDense
 
         // Initialize biases to 0 for each neuron
         biases = std::vector<double>(n_neurons, 0.0);
-    }
+        }
         /*
         [1,2,3,4]
         [1,3,2,4]
@@ -42,6 +42,11 @@ class LayerDense
     int n_neurons;
 };
 
+class Activation_Relu
+{
+    public:
+        std::vector<std::vector<double> >forward(std::vector<std::vector<double> > input);
+};
 /*
 [1,2,3,4]
 [1,3,2,4]
@@ -62,4 +67,6 @@ std::vector<std::vector<double> > Product(std::vector<std::vector<double> > inpu
 void printMatrix(std::vector<std::vector<double> > matrix);
 
 std::vector<std::vector<double> > convert(double ** X,int element,int set);
+
+std::pair<std::vector<std::vector<double>>, std::vector<int>> create_data(int points, int classes);
 #endif

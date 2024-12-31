@@ -1,6 +1,9 @@
 #include<iostream>
 #include<random>
 #include<iomanip>
+#include <vector>
+#include <utility>
+#include <cmath> 
 
 #include "AI.h"
 
@@ -103,6 +106,36 @@ void printMatrix(std::vector<std::vector<double> > matrix)
     }
 }
 
+
+std::vector<std::vector<double> >forward(std::vector<std::vector<double> > input)
+{
+    if(input.size() < 1)
+        throw std::invalid_argument("No value in the input vector");
+    int rows = input.size();
+    int cols = input[0].size();
+    std::vector<std::vector<double>> output(rows, std::vector<double>(cols, 0));
+
+
+        for(int i = 0; i < rows;i++)
+        {
+            for(int j = 0; j < cols; j++)
+            {
+                if(input[i][j] <= 0)
+                    output[i][j] = 0;
+                else
+                    output[i][j] = input[i][j];
+
+            }
+        }
+    return output;
+}
+
+
+
+
+
+
+
 void delete_X(double ** X,int set)
 {
     for(int i = 0; i < set;i++)
@@ -130,4 +163,37 @@ std::vector<std::vector<double> > convert(double ** X,int element,int set)
         converted.push_back(temp);
     }
     return converted;
+}
+
+
+  
+
+std::pair<std::vector<std::vector<double>>, std::vector<int>> create_data(int points, int classes) {
+    std::vector<std::vector<double>> X(points * classes, std::vector<double>(2));
+    std::vector<int> y(points * classes);
+
+    std::random_device rd;
+    std::mt19937 gen(rd());
+    std::normal_distribution<> noise(0, 0.2); // Random noise with mean 0 and std deviation 0.2
+
+    for (int class_number = 0; class_number < classes; ++class_number) {
+        for (int i = 0; i < points; ++i) {
+            int index = points * class_number + i;
+
+            // Radius
+            double r = static_cast<double>(i) / points;
+
+            // Angle with some added noise
+            double t = class_number * 4 + 4.0 * i / points + noise(gen);
+
+            // Coordinates
+            X[index][0] = r * sin(t * 2.5);
+            X[index][1] = r * cos(t * 2.5);
+
+            // Class label
+            y[index] = class_number;
+        }
+    }
+
+    return {X, y}; // Return a pair containing X and y
 }
