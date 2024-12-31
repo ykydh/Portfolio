@@ -59,7 +59,8 @@ This project aim to implement simple machine learning model with C++.<br />
 Implemented activation functions:ReLu, Softmax<br />
 
 Input generation:Spiral<br />
-'''
+
+''''
 std::pair<std::vector<std::vector<double>>, std::vector<int>>
 create_data(int points, int classes) {
   std::vector<std::vector<double>> X(points * classes, std::vector<double>(2));
@@ -92,7 +93,8 @@ create_data(int points, int classes) {
   return std::make_pair(X, y); // Correct way to create and return a pair
   ;
 }
-'''
+''''
+
 #### **Codes** 
 [main.cpp](https://github.com/ykydh/Portfolio/blob/main/projects/Codes/AI/main.cpp)<br />
 [AI.h](https://github.com/ykydh/Portfolio/blob/main/projects/Codes/AI/AI.h)<br />
