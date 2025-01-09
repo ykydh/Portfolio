@@ -2,6 +2,7 @@
 #define AI_H
 
 #include <vector>
+#include <random>
 class LayerDense {
 public:
   LayerDense(int n_inputs, int n_neurons) {
@@ -13,7 +14,7 @@ public:
     std::mt19937 gen(rd());
     std::normal_distribution<> dist(0.0, 1.0);
 
-    weights = std::vector<std::vector<double>>(
+    weights = std::vector<std::vector<double> >(
         n_inputs, std::vector<double>(n_neurons, 0.0));
     for (int i = 0; i < n_inputs; i++) {
       for (int j = 0; j < n_neurons; j++) {
@@ -33,11 +34,11 @@ public:
   n_neurons:3
   */
 
-  std::vector<std::vector<double>>
-  forward(std::vector<std::vector<double>> input);
+  std::vector<std::vector<double> >
+  forward(std::vector<std::vector<double> > input);
 
 private:
-  std::vector<std::vector<double>> weights;
+  std::vector<std::vector<double> > weights;
   std::vector<double> biases;
   int n_inputs;
   int n_neurons;
@@ -45,8 +46,8 @@ private:
 
 class Activation_Relu {
 public:
-  std::vector<std::vector<double>>
-  forward(std::vector<std::vector<double>> input);
+  std::vector<std::vector<double> >
+  forward(std::vector<std::vector<double> > input);
 };
 
 class Activation_Softmax {
@@ -64,18 +65,18 @@ void delete_X(double **X, int set);
 
 double **create_X(int numElems, int numSets);
 
-void print_X(std::vector<std::vector<double>> x);
+void print_X(std::vector<std::vector<double> > x);
 
 // This function is trying to multiply matrixes, transpose have done in init
 // function so just product
-std::vector<std::vector<double>>
-Product(std::vector<std::vector<double>> input,
-        std::vector<std::vector<double>> weights);
+std::vector<std::vector<double> >
+Product(std::vector<std::vector<double> > input,
+        std::vector<std::vector<double> > weights);
 
-void printMatrix(std::vector<std::vector<double>> matrix);
+void printMatrix(std::vector<std::vector<double> > matrix);
 
-std::vector<std::vector<double>> convert(double **X, int element, int set);
+std::vector<std::vector<double> > convert(double **X, int element, int set);
 
-std::pair<std::vector<std::vector<double>>, std::vector<int>>
+std::pair<std::vector<std::vector<double> >, std::vector<int> >
 create_data(int points, int classes);
 #endif

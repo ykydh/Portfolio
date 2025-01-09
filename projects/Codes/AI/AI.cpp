@@ -27,7 +27,7 @@ double **create_X(int numElems, int numSets) {
   return X;
 }
 
-void print_X(std::vector<std::vector<double>> x) {
+void print_X(std::vector<std::vector<double> > x) {
   int count = 0;
   for (int i = 0; i < x.size(); i++) {
     count = 0;
@@ -44,9 +44,9 @@ void print_X(std::vector<std::vector<double>> x) {
   return;
 }
 
-std::vector<std::vector<double>>
-Product(std::vector<std::vector<double>> input,
-        std::vector<std::vector<double>> weights) {
+std::vector<std::vector<double> >
+Product(std::vector<std::vector<double> > input,
+        std::vector<std::vector<double> > weights) {
   int input_rows = input.size();
   int input_cols = input[0].size();
   int weights_cols = weights[0].size();
@@ -58,7 +58,7 @@ Product(std::vector<std::vector<double>> input,
   }
 
   // Initialize the product matrix with appropriate dimensions
-  std::vector<std::vector<double>> product(
+  std::vector<std::vector<double> > product(
       input_rows, std::vector<double>(weights_cols, 0.0));
 
   // Perform matrix multiplication
@@ -75,14 +75,14 @@ Product(std::vector<std::vector<double>> input,
   return product;
 }
 
-std::vector<std::vector<double>>
-LayerDense::forward(std::vector<std::vector<double>> input) {
-  std::vector<std::vector<double>> output;
+std::vector<std::vector<double> >
+LayerDense::forward(std::vector<std::vector<double> > input) {
+  std::vector<std::vector<double> > output;
   output = Product(input, weights);
   return output;
 }
 
-void printMatrix(std::vector<std::vector<double>> matrix) {
+void printMatrix(std::vector<std::vector<double> > matrix) {
   int rows = matrix.size();
   int cols = matrix[0].size();
 
@@ -97,13 +97,13 @@ void printMatrix(std::vector<std::vector<double>> matrix) {
   }
 }
 
-std::vector<std::vector<double>>
-Activation_Relu::forward(std::vector<std::vector<double>> input) {
+std::vector<std::vector<double> >
+Activation_Relu::forward(std::vector<std::vector<double> > input) {
   if (input.size() < 1)
     throw std::invalid_argument("No value in the input vector");
   int rows = input.size();
   int cols = input[0].size();
-  std::vector<std::vector<double>> output(rows, std::vector<double>(cols, 0));
+  std::vector<std::vector<double> > output(rows, std::vector<double>(cols, 0));
 
   for (int i = 0; i < rows; i++) {
     for (int j = 0; j < cols; j++) {
@@ -146,8 +146,8 @@ void delete_X(double **X, int set) {
   return;
 }
 
-std::vector<std::vector<double>> convert(double **X, int element, int set) {
-  std::vector<std::vector<double>> converted;
+std::vector<std::vector<double> > convert(double **X, int element, int set) {
+  std::vector<std::vector<double> > converted;
   std::vector<double> temp;
   for (int i = 0; i < set; i++) {
     temp.clear();
@@ -159,9 +159,9 @@ std::vector<std::vector<double>> convert(double **X, int element, int set) {
   return converted;
 }
 
-std::pair<std::vector<std::vector<double>>, std::vector<int>>
+std::pair<std::vector<std::vector<double> >, std::vector<int> >
 create_data(int points, int classes) {
-  std::vector<std::vector<double>> X(points * classes, std::vector<double>(2));
+  std::vector<std::vector<double> > X(points * classes, std::vector<double>(2));
   std::vector<int> y(points * classes);
 
   std::random_device rd;
@@ -189,5 +189,5 @@ create_data(int points, int classes) {
   }
 
   return std::make_pair(X, y); // Correct way to create and return a pair
-  ;
+  
 }
