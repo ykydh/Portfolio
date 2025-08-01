@@ -14,13 +14,6 @@ Hi, I’m Yutaro! A passionate sophomore studying Computer Science at **Missouri
 
 ---
 
-### 🎓 **Education**
-**Missouri University of Science & Technology**  
-**Major**: Computer Science  
-**Year**: Junior
-
----
-
 ### 📄 **Documents**
 - [Resume](https://github.com/ykydh/Portfolio/blob/main/projects/Resume_.pdf)  
 - [LinkedIn](https://www.linkedin.com/in/yutaro-kiyota-0b8ab7307/)
@@ -35,8 +28,14 @@ Hi, I’m Yutaro! A passionate sophomore studying Computer Science at **Missouri
 - C++ / Python / SQL  
 - Data Structures / Algorithm  
 - Technical Writing  
-- Leadership & Communication  
+- Leadership & Communication
+  
+---
 
+### 🎓 **Education**
+**Missouri University of Science & Technology**  
+**Major**: Computer Science  
+**Year**: Junior
 ---
 
 ### 🌐 **Languages**
@@ -94,9 +93,61 @@ create_data(int points, int classes) {
 ```
 
 ---
-### 📝 **Technical Writing Portfolio**
-- [International Student Challenges: Mental & Academic Struggles](https://github.com/ykydh/Portfolio/blob/main/projects/Writing/StudentStruggles.pdf)  
-- [Research Paper: Lightweight RTOS for Raspberry Pi Pico W](https://github.com/ykydh/Portfolio/blob/main/projects/Writing/PicoRTOSResearch.pdf)  
-- [Data Analysis of MLB Pitching Stats](https://github.com/ykydh/Portfolio/blob/main/projects/Writing/BaseballAnalytics.pdf)
+## 📝 **Technical Writing Portfolio**
+
+The following documents detail a usability experiment conducted on the Microsoft To Do application:
+
+- **The Proposal** outlines the experiment’s methodology, its expected benefits, the required personnel and equipment, a proposed schedule, and the informed consent form.
+- **The Usability Testing** includes a detailed test plan with clearly defined user tasks, a system for calculating error rates, a structured test log for observation recording, and thoughtfully designed pre- and post-screening questionnaires to gather feedback.
+- **The Recommendation Report** provides an in-depth summary of findings and analysis, evaluating the usability and effectiveness of Microsoft To Do. It concludes with actionable recommendations to improve its intuitiveness and user-friendliness.
+
+### 🔍 **What I Learned from This Project**
+
+- **Effective Audience Analysis**  
+  I developed the ability to assess target audiences and tailor messages to resonate with their specific expectations and needs.
+
+- **Clarity and Precision in Writing**  
+  I learned to structure documents for maximum clarity and engagement, using formatting and language that make content accessible and persuasive.
+
+- **Data Analysis and Prioritization**  
+  I gained experience identifying patterns in user behavior and prioritizing issues based on impact and urgency.
+
+- **Visual Communication**  
+  I became proficient in using charts, graphs, and tables to present information in a way that is both accurate and visually impactful, choosing representations that support clear decision-making.
+
+<ins>*Click on the images below to view each document in full.*</ins>
 
 ---
+
+## 📄 **Proposal**
+[![Proposal Preview](https://github.com/ykydh/Portfolio/blob/main/projects/displays/Proposal/Proposal-2.png)](https://github.com/ykydh/Portfolio/blob/main/projects/Proposal.pdf)
+
+---
+
+## 🧪 **Usability Testing**
+[![Usability Test Preview](https://github.com/ykydh/Portfolio/blob/main/projects/displays/Usability%20Test/Usability%20Test-01.png)](https://github.com/ykydh/Portfolio/blob/main/projects/Usability%20Test.pdf)
+
+---
+
+## 📊 **Recommendation Report**
+[![Recommendation Report Preview](https://github.com/ykydh/Portfolio/blob/main/projects/displays/Recommendation/Recommendation-02.png)](https://github.com/ykydh/Portfolio/blob/main/projects/Recommendation.pdf)
+
+---
+
+## 📈 GitHub Stats
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=ykydh&show_icons=true&locale=en" alt="ykydh" />
+  <br/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ykydh&layout=compact" alt="ykydh" />
+</p>
+
+---
+
+## 🤝 Connect with Me
+
+<p align="center">
+  <a href="https://linkedin.com/in/yutarokiyota" target="blank"><img align="center" src="https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+  <a href="mailto:yutarokiyota@gmail.com"><img align="center" src="https://img.shields.io/badge/Gmail-D14836?style=flat&logo=gmail&logoColor=white" alt="Gmail" /></a>
+  <a href="https://ykydh.github.io"><img align="center" src="https://img.shields.io/badge/Portfolio-000?style=flat&logo=github&logoColor=white" alt="Portfolio" /></a>
+</p>
