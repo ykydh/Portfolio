@@ -1,7 +1,7 @@
 <!-- HEADER BANNER -->
 <p align="center">
   <img 
-    src="https://capsule-render.vercel.app/api?type=waving&color=0f2027,203a43,2c5364&height=250&section=header&text=Yutaro%20Kiyota&fontSize=50&fontAlignY=35&desc=Embedded%20Systems%20%7C%20Software%20Development%20%7C%20CS%20Student&descAlignY=65&animation=fadeIn" 
+    src="https://capsule-render.vercel.app/api?type=waving&color=00c6ff,0072ff&height=250&section=header&text=Yutaro%20Kiyota&fontSize=50&fontAlignY=35&desc=Embedded%20Systems%20%7C%20Software%20Development%20%7C%20CS%20Student&descAlignY=65&animation=fadeIn" 
     width="100%" 
     alt="Yutaro Kiyota Banner"
 />
