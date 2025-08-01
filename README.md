@@ -1,9 +1,8 @@
 <!-- HEADER BANNER -->
 <p align="center">
   <img 
-    src="https://capsule-render.vercel.app/api?type=waving&color=00c6ff,0072ff&height=250&section=header&text=Yutaro%20Kiyota&fontSize=50&fontAlignY=35&desc=Embedded%20Systems%20%7C%20Software%20Development%20%7C%20CS%20Student&descAlignY=65&animation=fadeIn" 
-    width="100%" 
-    alt="Yutaro Kiyota Banner"
+    src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=200&section=header&text=Yutaro%20Kiyota&fontSize=40&fontAlignY=40&desc=Embedded%20Systems%20%7C%20Cybersecurity%20%7C%20CS%20Student&descAlignY=60&animation=fadeIn"
+    width 100%
 />
 </p>
 
