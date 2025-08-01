@@ -33,9 +33,9 @@ Hi, I’m Yutaro! A passionate sophomore studying Computer Science at **Missouri
 ---
 
 ### 🎓 **Education**
-**Missouri University of Science & Technology**  
-**Major**: Computer Science  
-**Year**: Junior
+Missouri University of Science & Technology**  
+Major: Computer Science  
+Year: Junior
 ---
 
 ### 🌐 **Languages**
@@ -134,20 +134,10 @@ The following documents detail a usability experiment conducted on the Microsoft
 
 ---
 
-## 📈 GitHub Stats
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=ykydh&show_icons=true&locale=en" alt="ykydh" />
-  <br/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ykydh&layout=compact" alt="ykydh" />
-</p>
-
----
-
 ## 🤝 Connect with Me
 
 <p align="center">
-  <a href="https://linkedin.com/in/yutarokiyota" target="blank"><img align="center" src="https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
-  <a href="mailto:yutarokiyota@gmail.com"><img align="center" src="https://img.shields.io/badge/Gmail-D14836?style=flat&logo=gmail&logoColor=white" alt="Gmail" /></a>
+  <a href="https://www.linkedin.com/in/ykydh-0b8ab7307/" target="blank"><img align="center" src="https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+  <a href="mailto:ykydh@umsystem.edu"><img align="center" src="https://img.shields.io/badge/Gmail-D14836?style=flat&logo=gmail&logoColor=white" alt="Gmail" /></a>
   <a href="https://ykydh.github.io"><img align="center" src="https://img.shields.io/badge/Portfolio-000?style=flat&logo=github&logoColor=white" alt="Portfolio" /></a>
 </p>
