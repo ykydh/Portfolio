@@ -19,6 +19,8 @@ Hi, I’m Yutaro! A passionate sophomore studying Computer Science at **Missouri
 **Major**: Computer Science  
 **Year**: Junior
 
+---
+
 ### 📄 **Documents**
 - [Resume](https://github.com/ykydh/Portfolio/blob/main/projects/Resume_.pdf)  
 - [LinkedIn](https://www.linkedin.com/in/yutaro-kiyota-0b8ab7307/)
@@ -30,10 +32,16 @@ Hi, I’m Yutaro! A passionate sophomore studying Computer Science at **Missouri
   <img src="https://skillicons.dev/icons?i=cpp,python,linux,git,vscode,sql" />
 </p>
 
-- C++ / Python / SQL 
-- Data Structures / Algorithm 
+- C++ / Python / SQL  
+- Data Structures / Algorithm  
 - Technical Writing  
 - Leadership & Communication  
+
+---
+
+### 🌐 **Languages**
+- 🇯🇵 Japanese — Native  
+- 🇺🇸 English — Fluent
 
 ---
 
@@ -83,3 +91,12 @@ create_data(int points, int classes) {
   }
   return std::make_pair(X, y);
 }
+```
+
+---
+### 📝 **Technical Writing Portfolio**
+- [International Student Challenges: Mental & Academic Struggles](https://github.com/ykydh/Portfolio/blob/main/projects/Writing/StudentStruggles.pdf)  
+- [Research Paper: Lightweight RTOS for Raspberry Pi Pico W](https://github.com/ykydh/Portfolio/blob/main/projects/Writing/PicoRTOSResearch.pdf)  
+- [Data Analysis of MLB Pitching Stats](https://github.com/ykydh/Portfolio/blob/main/projects/Writing/BaseballAnalytics.pdf)
+
+---
