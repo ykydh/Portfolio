@@ -36,9 +36,9 @@ Hi, I’m Yutaro! A passionate sophomore studying Computer Science at **Missouri
 ---
 
 ### 🎓 **Education**
-Missouri University of Science & Technology
-Major: Computer Science
-Year: Junior
+***Missouri University of Science & Technology***
+***Major: Computer Science***
+***Year: Junior***
 
 ---
 ### 🌐 **Languages**
