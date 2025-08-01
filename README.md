@@ -1,6 +1,6 @@
 <!-- HEADER BANNER -->
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=200&section=header&text=Yutaro%20Kiyota&fontSize=40&fontAlignY=40&desc=Embedded%20Systems%20%7C%20Cybersecurity%20%7C%20CS%20Student&descAlignY=60&animation=fadeIn"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=200&section=header&text=Yutaro%20Kiyota&fontSize=40&fontAlignY=40&desc=Embedded%20Systems%20%7C%20Software%20Development%20%7C%20CS%20Student&descAlignY=60&animation=fadeIn"/>
 </p>
 
 # ✨ **Yutaro Kiyota**
@@ -10,14 +10,14 @@ Hi, I’m Yutaro! A passionate sophomore studying Computer Science at **Missouri
 - 🌍 International student from Japan  
 - ⚙️ Into Embedded Systems & Cybersecurity  
 - 🎓 RA & Satellite Research Team Contributor  
-- ⚾ Baseball fan & Fitness enthusiast  
+- 🏃 Running & Fitness enthusiast  
 
 ---
 
 ### 🎓 **Education**
 **Missouri University of Science & Technology**  
 **Major**: Computer Science  
-**Year**: Sophomore
+**Year**: Junior
 
 ### 📄 **Documents**
 - [Resume](https://github.com/ykydh/Portfolio/blob/main/projects/Resume_.pdf)  
@@ -27,11 +27,11 @@ Hi, I’m Yutaro! A passionate sophomore studying Computer Science at **Missouri
 
 ### 🛠️ **Skills**
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=cpp,python,linux,git,vscode,sqlite,arduino" />
+  <img src="https://skillicons.dev/icons?i=cpp,python,linux,git,vscode,sql" />
 </p>
 
-- C++ / Python  
-- Data Structures  
+- C++ / Python / SQL 
+- Data Structures / Algorithm 
 - Technical Writing  
 - Leadership & Communication  
 
