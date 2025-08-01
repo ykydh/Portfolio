@@ -5,7 +5,7 @@
     width="100%" 
   />
 
-  <img src="https://skillicons.dev/icons?i=cpp,python,linux,git,vscode,mysql" />
+  <img src="https://skillicons.dev/icons?i=cpp,python,html,linux,git,vscode,mysql" />
 </p>
 
 # ✨ **Yutaro Kiyota**
