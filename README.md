@@ -1,16 +1,20 @@
 <!-- HEADER BANNER -->
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=200&section=header&text=Yutaro%20Kiyota&fontSize=40&fontAlignY=40&desc=Embedded%20Systems%20%7C%20Software%20Development%20%7C%20CS%20Student&descAlignY=60&animation=fadeIn"/>
+  <img 
+    src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=250&section=header&text=Yutaro%20Kiyota&fontSize=50&fontAlignY=35&desc=Embedded%20Systems%20%7C%20Software%20Development%20%7C%20CS%20Student&descAlignY=65&animation=fadeIn" 
+    width="100%" 
+    alt="Yutaro Kiyota Banner"
+/>
 </p>
 
 # ✨ **Yutaro Kiyota**
 
 Hi, I’m Yutaro! A passionate sophomore studying Computer Science at **Missouri University of Science & Technology**.
-
-- 🌍 International student from Japan  
-- ⚙️ Into Embedded Systems & Cybersecurity  
-- 🎓 RA & Satellite Research Team Contributor  
-- 🏃 Running & Fitness enthusiast  
+ 
+- ⚙️ Into Embedded Systems & Software Development  
+- 🎓 Senior Resident Assistant & Satellite Research Team Contributor  
+- 🏃 Running & Fitness enthusiast
+- 🌍 International student from Japan   
 
 ---
 
@@ -139,5 +143,4 @@ The following documents detail a usability experiment conducted on the Microsoft
 <p align="center">
   <a href="https://www.linkedin.com/in/ykydh-0b8ab7307/" target="blank"><img align="center" src="https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
   <a href="mailto:ykydh@umsystem.edu"><img align="center" src="https://img.shields.io/badge/Gmail-D14836?style=flat&logo=gmail&logoColor=white" alt="Gmail" /></a>
-  <a href="https://ykydh.github.io"><img align="center" src="https://img.shields.io/badge/Portfolio-000?style=flat&logo=github&logoColor=white" alt="Portfolio" /></a>
 </p>
