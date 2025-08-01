@@ -5,6 +5,9 @@
     width="100%" 
   />
 </p>
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=cpp,python,linux,git,vscode,sql" />
+</p>
 
 # ✨ **Yutaro Kiyota**
 
@@ -24,9 +27,6 @@ Hi, I’m Yutaro! A passionate sophomore studying Computer Science at **Missouri
 ---
 
 ### 🛠️ **Skills**
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=cpp,python,linux,git,vscode,sql" />
-</p>
 
 - C++ / Python / SQL  
 - Data Structures / Algorithm  
