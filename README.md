@@ -63,7 +63,8 @@ The system handles data packetization, transmission over sockets and reassembly 
 - Specification
   - Split data into 4096-byte packet
   - Prepends header with total data size to keep track of transferred data size.
- 
+
+[![TCP message transfer](https://github.com/ykydh/Portfolio/blob/main/projects/displays/pics/TCP message.jpeg)](https://github.com/ykydh/Portfolio/blob/main/projects/diaplays/Pics/TCP message.jpeg)
 ---
 
 #### ♦ Tree Map (Binary Search Tree)  
