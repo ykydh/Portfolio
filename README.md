@@ -10,7 +10,7 @@
 
 # **Yutaro Kiyota**
 
-Hi, I’m Yutaro! A passionate sophomore studying Computer Science at **Missouri University of Science & Technology**.
+Hi, I’m Yutaro! A passionate junior studying Computer Science at **Missouri University of Science & Technology**.
  
 - Into Embedded Systems & Software Development  
 - Senior Resident Assistant & Satellite Research Team Contributor  
