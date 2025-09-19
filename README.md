@@ -71,7 +71,7 @@ Recreating a simplified `std::map` using a BST.
 - Parses input character frequency into mapped ASCII  
 - Demonstrates core map operations using templated nodes  
 
-**Links:** [Main](https://github.com/ykydh/Portfolio/blob/main/projects/Codes/main.cpp) | [TreeNode](https://github.com/ykydh/Portfolio/blob/main/projects/Codes/TreeNode.h) | [MyMap.h](https://github.com/ykydh/Portfolio/blob/main/projects/Codes/MyMap.h) | [MyMap.hpp](https://github.com/ykydh/Portfolio/blob/main/projects/Codes/MyMap.hpp)
+**Links:** [Main](https://github.com/ykydh/Portfolio/blob/main/projects/Codes/map/main.cpp) | [TreeNode](https://github.com/ykydh/Portfolio/blob/main/projects/Codes/map/TreeNode.h) | [MyMap.h](https://github.com/ykydh/Portfolio/blob/main/projects/Codes/map/MyMap.h) | [MyMap.hpp](https://github.com/ykydh/Portfolio/blob/main/projects/Codes/map/MyMap.hpp)
 
 ---
 
@@ -80,7 +80,7 @@ A single-player Black Jack game with a twist:
 - Dynamic advice system with risk-reward balance  
 - Different payouts depending on user decision-making  
 
-**Links:** [Main](https://github.com/ykydh/Portfolio/blob/main/projects/Codes/Jack.cpp) | [Header](https://github.com/ykydh/Portfolio/blob/main/projects/Codes/Black5.h) | [Implementation](https://github.com/ykydh/Portfolio/blob/main/projects/Codes/Black5.cpp)
+**Links:** [Main](https://github.com/ykydh/Portfolio/blob/main/projects/Codes/Black/Jack.cpp) | [Header](https://github.com/ykydh/Portfolio/blob/main/projects/Codes/Black/Black5.h) | [Implementation](https://github.com/ykydh/Portfolio/blob/main/projects/Codes/Black/Black5.cpp)
 
 ---
 
