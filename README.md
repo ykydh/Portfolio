@@ -48,7 +48,7 @@ Year: Junior
 
 ---
 
-### 🚀 **Programming Portfolio**
+### **Programming Portfolio**
 
 #### ♦ TCP ethernet file transfer scheme
 A C++ client-server file transfer system over TCP sockets.
@@ -61,16 +61,9 @@ The system handles data packetization, transmission over sockets and reassembly 
   - Message Mode: Send plain text message between client and server.
   - File Mode: Send arbitrary binary files (e.g., .jpg, .pdf)
 - Specification
-  -Split data into 4096-byte packet
-  -Prepends header with total data size to keep track of transferred data size.
-
-#### ♦ Black Jack  
-A single-player Black Jack game with a twist:  
-- Dynamic advice system with risk-reward balance  
-- Different payouts depending on user decision-making  
-
-**Links:** [Main](https://github.com/ykydh/Portfolio/blob/main/projects/Codes/Jack.cpp) | [Header](https://github.com/ykydh/Portfolio/blob/main/projects/Codes/Black5.h) | [Implementation](https://github.com/ykydh/Portfolio/blob/main/projects/Codes/Black5.cpp)
-
+  - Split data into 4096-byte packet
+  - Prepends header with total data size to keep track of transferred data size.
+ 
 ---
 
 #### ♦ Tree Map (Binary Search Tree)  
@@ -79,6 +72,15 @@ Recreating a simplified `std::map` using a BST.
 - Demonstrates core map operations using templated nodes  
 
 **Links:** [Main](https://github.com/ykydh/Portfolio/blob/main/projects/Codes/main.cpp) | [TreeNode](https://github.com/ykydh/Portfolio/blob/main/projects/Codes/TreeNode.h) | [MyMap.h](https://github.com/ykydh/Portfolio/blob/main/projects/Codes/MyMap.h) | [MyMap.hpp](https://github.com/ykydh/Portfolio/blob/main/projects/Codes/MyMap.hpp)
+
+---
+
+#### ♦ Black Jack  
+A single-player Black Jack game with a twist:  
+- Dynamic advice system with risk-reward balance  
+- Different payouts depending on user decision-making  
+
+**Links:** [Main](https://github.com/ykydh/Portfolio/blob/main/projects/Codes/Jack.cpp) | [Header](https://github.com/ykydh/Portfolio/blob/main/projects/Codes/Black5.h) | [Implementation](https://github.com/ykydh/Portfolio/blob/main/projects/Codes/Black5.cpp)
 
 ---
 
