@@ -20,7 +20,7 @@ Hi, I’m Yutaro! A passionate sophomore studying Computer Science at **Missouri
 ---
 
 ### 📄 **Documents**
-- [Resume](https://github.com/ykydh/Portfolio/blob/main/projects/Resume_.pdf)  
+- [Resume](https://github.com/ykydh/Portfolio/blob/main/projects/resume8-1.pdf)  
 - [LinkedIn](https://www.linkedin.com/in/yutaro-kiyota-0b8ab7307/)
 
 ---
