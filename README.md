@@ -53,14 +53,14 @@ Year: Junior
 #### ♦ TCP ethernet file transfer scheme
 A C++ client-server file transfer system over TCP sockets.
 
-This project is a TCP-based client-server application written in C++.
-It allows clients to send either message or binary files (eg.images) to a server.
-The system handles data packetization, transmission over sockets and reassembly into the original file or message.
--Implemented using Berkeley sockets(socket, bind, listen, accept, connect, recv, send).
--Supprt two modes
-  -Message Mode: Send plain text message between client and server.
-  -File Mode: Send arbitrary binary files (e.g., .jpg, .pdf)
-Specification
+This project is a TCP-based client-server application written in C++.<br />
+It allows clients to send either message or binary files (eg.images) to a server.<br />
+The system handles data packetization, transmission over sockets and reassembly into the original file or message.<br />
+- Implemented using Berkeley sockets(socket, bind, listen, accept, connect, recv, send).
+- Supprt two modes
+  - Message Mode: Send plain text message between client and server.
+  - File Mode: Send arbitrary binary files (e.g., .jpg, .pdf)
+- Specification
   -Split data into 4096-byte packet
   -Prepends header with total data size to keep track of transferred data size.
 
