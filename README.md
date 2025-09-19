@@ -8,14 +8,13 @@
   <img src="https://skillicons.dev/icons?i=cpp,python,html,linux,git,vscode,mysql" />
 </p>
 
-# ✨ **Yutaro Kiyota**
+# **Yutaro Kiyota**
 
 Hi, I’m Yutaro! A passionate sophomore studying Computer Science at **Missouri University of Science & Technology**.
  
-- ⚙️ Into Embedded Systems & Software Development  
-- 🎓 Senior Resident Assistant & Satellite Research Team Contributor  
-- 🏃 Running & Fitness enthusiast
-- 🌍 International student from Japan   
+- Into Embedded Systems & Software Development  
+- Senior Resident Assistant & Satellite Research Team Contributor  
+- Running & Fitness enthusiast  
 
 ---
 
@@ -50,6 +49,20 @@ Year: Junior
 ---
 
 ### 🚀 **Programming Portfolio**
+
+#### ♦ TCP ethernet file transfer scheme
+A C++ client-server file transfer system over TCP sockets.
+
+This project is a TCP-based client-server application written in C++.
+It allows clients to send either message or binary files (eg.images) to a server.
+The system handles data packetization, transmission over sockets and reassembly into the original file or message.
+-Implemented using Berkeley sockets(socket, bind, listen, accept, connect, recv, send).
+-Supprt two modes
+  -Message Mode: Send plain text message between client and server.
+  -File Mode: Send arbitrary binary files (e.g., .jpg, .pdf)
+Specification
+  -Split data into 4096-byte packet
+  -Prepends header with total data size to keep track of transferred data size.
 
 #### ♦ Black Jack  
 A single-player Black Jack game with a twist:  
