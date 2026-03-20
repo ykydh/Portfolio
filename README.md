@@ -50,6 +50,12 @@ Year: Junior
 
 ### **Programming Portfolio**
 
+#### ♦ Stock Prediction (ML) app
+This project is a full-stack stock dashboard application that allows users to track, analyze, and simulate trading activity in real time. The system integrates a Python-based backend (FastAPI) with a lightweight React frontend to display live stock data, including top-performing stocks, individual stock search, and portfolio insights. It combines historical price data with machine learning (XGBoost) and news sentiment analysis (FinBERT) to make a predictions of next day's stock price, enabling users to visualize actual versus predicted trends on interactive charts. The application also supports buy and sell functionality, updating portfolio data dynamically while calculating gains, percentage changes, and performance indicators relative to purchase price. This project demonstrates my ability to design end to end systems, handle asynchronous data pipelines, integrate external APIs, and build responsive user interfaces for data-driven decision making.
+
+![SQL database ER diagram](place holder)
+
+
 #### ♦ TCP ethernet file transfer scheme
 A C++ client-server file transfer system over TCP sockets.
 
