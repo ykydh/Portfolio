@@ -1,0 +1,24 @@
+WHILE(TRUE)
+{
+    THREAD ONE
+    WHILE(TRUE)
+    {
+        WAIT INPUT
+        INPUT(NAME, MARKET,NUMBER)
+        SAVE INPUT to SQL
+    }
+
+    THREAD TWO
+    WAIT(15mins)
+    RETRIEVE STOCKS in SQL
+    FOR(STOCKS)
+    {
+        DOWNLINK STOCK PRICE from API
+        DOWNLINK NEWS RELATED to the STOCK
+
+        PARSE PRICE AND  NEWS to ML
+        GET PREDICTION
+
+        SAVE in SQL
+    }
+}

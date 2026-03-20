@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Stock Dashboard</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <style>
+    /*Body*/
+    body{
+      font-family: Arial;
+      padding:20px;
+      background:#ceba97;
+    }
+
+    h2{
+      margin-top:30px;
+    }
+    /*Stock Contaners*/
+    .stock-container{
+      display:grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap:20px;
+
+      max-width:900px;   /* controls total width */
+      margin:0 auto;     /* centers container */
+    }
+
+    .stock-block{
+      flex:1;
+      background:white;
+      padding:10px;
+      border-radius:6px;
+      box-shadow:0 2px 5px rgba(0,0,0,0.1);
+      text-align:center;
+    }
+
+    .up{
+      color:green;
+      font-weight:bold;
+    }
+
+    .down{
+      color:red;
+      font-weight:bold;
+    }
+
+    input{
+      padding:8px;
+      margin-right:10px;
+    }
+
+    button{
+      padding:8px 15px;
+      cursor:pointer;
+    }
+    /*Graph*/
+    .graph{
+      height:200px;
+      background:white;
+      display:flex;
+      justify-content:center;
+      align-items:center;
+      border-radius:6px;
+      box-shadow:0 2px 5px rgba(0,0,0,0.1);
+      margin-top:20px;
+    }
+
+    /*Trade Bar*/
+    .trade-bar{
+      position:fixed;
+      bottom:0;
+      left:0;
+      width:100%;
+      background:white;
+      box-shadow:0 -2px 8px rgba(0,0,0,0.15);
+      padding:15px;
+
+      display:flex;
+      justify-content:center; 
+      align-items:center;
+      gap:20px;
+    }
+
+    .trade-panel {
+      position: fixed;
+      bottom: 70px;
+      left: 50%;
+      transform: translateX(-50%);
+      background: white;
+      padding: 15px 20px;
+      border-radius: 8px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+      
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+
+      max-width: 95%;   /* responsive width for mobile */
+      flex-wrap: wrap;  /* wrap elements if too narrow */
+    }
+
+    .trade-input {
+      padding: 6px;
+      width: 80px;        /* narrower input for mobile */
+      text-align: center;
+      font-size: 14px;
+    }
+
+    .buy-btn, .sell-btn {
+      min-width: 80px;    /* narrower buttons for mobile */
+      padding: 8px 15px;
+      font-size: 14px;
+      text-align: center;
+      border-radius: 6px;
+      cursor: pointer;
+    }
+
+    .buy-btn {
+      background: #2ecc71;
+      color: white;
+      border: none;
+    }
+
+    .sell-btn {
+      background: #e74c3c;
+      color: white;
+      border: none;
+    }
+  </style>
+</head>
+
+<body>
+
+<div id="root"></div>
+
+<!-- React -->
+<script src="https://unpkg.com/react@18/umd/react.development.js" crossorigin></script>
+<script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js" crossorigin></script>
+<script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+
+
+<script type="text/babel">
+
+const { useState, useEffect } = React;
+const API = "http://127.0.0.1:8000";
+
+/* -------------------------
+   Stock Block
+--------------------------*/
+function StockBlock({ stock }) {
+  var percentage = stock.percentage !== undefined ? stock.percentage : 0;
+  var predicted = stock.predicted_price !== undefined ? stock.predicted_price : "-";
+
+  return (
+    <div className="stock-block">
+      <h3>{stock.ticker}</h3>
+      <div>Price: ${stock.price}</div>
+      <div className={stock.up ? "up" : "down"}>
+        {stock.up ? "▲" : "▼"} {percentage}%
+      </div>
+      <div>Forecast: ${predicted}</div>
+    </div>
+  );
+}
+
+/* -------------------------
+   Top Stocks
+--------------------------*/
+function TopStocks() {
+  const [stocks, setStocks] = useState([]);
+
+  async function loadStocks() {
+    try {
+      const res = await fetch(`${API}/stock/topthree/current`);
+      var data = await res.json();
+
+      // If API returned an error or object, convert to empty array
+      if (!Array.isArray(data)) {
+        console.log("API did not return an array:", data);
+        data = [];
+      }
+
+      var mapped = data.map(function(s) {
+        return {
+          ticker: s.ticker || "-",
+          price: s.price || 0,
+          up: s.up !== undefined ? s.up : true,
+          percentage: s.percentage || 0,
+          predicted_price: s.predicted_price || "-"
+        };
+      });
+
+      setStocks(mapped);
+
+    } catch (e) {
+      console.log("fetch error", e);
+      setStocks([]);
+    }
+  }
+
+  useEffect(() => {
+    loadStocks();
+    var interval = setInterval(loadStocks, 10000);
+    return () => clearInterval(interval);
+  }, []);
+
+  if (!stocks || stocks.length === 0) {
+    return <div>Loading top stocks...</div>;
+  }
+
+  return (
+    <div className="stock-container">
+      {stocks.map(function(stock){
+        return <StockBlock key={stock.ticker} stock={stock} />;
+      })}
+    </div>
+  );
+}
+
+/* -------------------------
+   Search Stock
+--------------------------*/
+function SearchStock() {
+  const [query, setQuery] = React.useState("");
+  const [stock, setStock] = React.useState(null);
+
+  async function search() {
+    if (!query) return;
+
+    try {
+      const res = await fetch(`${API}/stock/single/prediction?ticker=${query.toUpperCase()}`);
+      const data = await res.json();
+
+      if (!data || data.error) {
+        setStock(null);
+        alert("Stock not found");
+        return;
+      }
+
+      if (!data.ticker) {
+        setStock(null);
+        console.log("Stock not found:", query.toUpperCase());
+        return;
+      }
+
+      setStock({
+        ticker: data.ticker || "-",
+        price: data.current_price || 0,
+        volume: data.volume || 0,
+        up: data.up !== undefined ? data.up : true,
+        percentage: data.percentage !== undefined ? data.percentage : 0,
+        predicted_price: data.predicted_price || "-",
+        confidence: data.confidence || "-"
+      });
+
+    } catch (e) {
+      console.log("Search error:", e);
+      setStock(null);
+      alert("Failed to fetch stock");
+    }
+  }
+
+  // <-- RETURN MUST BE INSIDE FUNCTION
+  return (
+    <div>
+      <input
+        value={query}
+        onChange={e => setQuery(e.target.value)}
+        placeholder="Ticker"
+      />
+      <button onClick={search}>Search</button>
+      {stock && <StockBlock stock={stock} />}
+    </div>
+  );
+}
+/* -------------------------
+  Input bar                 
+---------------------------*/
+function TradingBar(){
+
+  const [mode,setMode] = React.useState(null);
+  const [ticker,setTicker] = React.useState("");
+  const [price,setPrice] = React.useState("");
+  const [volume,setVolume] = React.useState("");
+  const [exchange,setExchange] = React.useState("NASDAQ"); // default exchange
+
+  async function submitTrade(){
+    if(!ticker || !price || !volume || !exchange){
+      alert("Fill all fields");
+      return;
+    }
+
+    try{
+      if(mode === "buy"){
+        await fetch(
+          `${API}/stock/add/${exchange}/${ticker}?price=${price}&volume=${volume}`,
+          {method:"POST"}
+        );
+        alert("Stock purchased");
+      }
+
+      if(mode === "sell"){
+        const res = await fetch(
+          `${API}/stock/sell/${exchange}/${ticker}`,
+          {
+            method:"DELETE",
+            headers:{ "Content-Type":"application/json" },
+            body: JSON.stringify({
+              price: parseFloat(price),
+              volume_sell: parseInt(volume)
+            })
+          }
+        );
+
+        const data = await res.json();
+        alert("Sold. Gain: " + (data.gain !== undefined ? data.gain : 0));
+      }
+
+      // reset inputs after trade
+      setMode(null);
+      setTicker("");
+      setPrice("");
+      setVolume("");
+      setExchange("NASDAQ");
+
+    }catch(err){
+      console.log(err);
+      alert("Trade failed");
+    }
+  }
+
+  return(
+    <div>
+
+      {mode && (
+        <div className="trade-panel">
+          <input
+            className="trade-input"
+            placeholder="Exchange"
+            value={exchange}
+            onChange={e => setExchange(e.target.value.toUpperCase())}
+          />
+
+          <input
+            className="trade-input"
+            placeholder="Ticker"
+            value={ticker}
+            onChange={e => setTicker(e.target.value.toUpperCase())}
+          />
+
+          <input
+            className="trade-input"
+            placeholder="Price"
+            type="number"
+            value={price}
+            onChange={e => setPrice(e.target.value)}
+          />
+
+          <input
+            className="trade-input"
+            placeholder="Volume"
+            type="number"
+            value={volume}
+            onChange={e => setVolume(e.target.value)}
+          />
+
+          <button onClick={submitTrade}>
+            Confirm
+          </button>
+        </div>
+      )}
+
+      <div className="trade-bar">
+        <button
+          className="buy-btn"
+          onClick={()=>setMode("buy")}
+        >
+          Buy
+        </button>
+
+        <button
+          className="sell-btn"
+          onClick={()=>setMode("sell")}
+        >
+          Sell
+        </button>
+      </div>
+
+    </div>
+  );
+}
+/* -------------------------
+   Graph Placeholder
+--------------------------*/
+function Graph() {
+  return (
+    <div className="graph">
+      Portfolio Graph Coming Soon
+    </div>
+  );
+}
+
+/* -------------------------
+   App
+--------------------------*/
+function App() {
+  return (
+    <div>
+      <h2>Top 3 Stocks</h2>
+      <TopStocks />
+
+      <h2>Search Stock</h2>
+      <SearchStock />
+
+      <h2>Graph</h2>
+      <Graph />
+
+      <TradingBar />
+    </div>
+  );
+}
+
+var root = ReactDOM.createRoot(document.getElementById("root"));
+root.render(<App />);
+
+</script>
+
+</body>
+</html>

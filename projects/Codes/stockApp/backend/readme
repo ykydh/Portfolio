@@ -1,0 +1,41 @@
+Run the following every time you work on the project.
+source venv/bin/activate
+
+Deactivate venv with.
+deactivate
+
+Column          Type        Description
+Open            float       Opening price of the stock on that date
+High            float       Highest price reached that day
+Low             float       Lowest price reached that day
+Close           float       Closing price of the stock
+AdjClose        float       Adjusted close accounting for splits/dividends
+Volume          int         Number of shares traded
+
+
+Finnhub API
+d4flpchr01qsjdiqgds0d4flpchr01qsjdiqgdsg
+
+{'category': 'company', 
+'datetime': 1763177409, 
+'headline': 'Apple intensifies succession planning for CEO Tim Cook',
+ 'id': 137494541, 
+ 'image': 'https://s.yimg.com/rz/stage/p/yahoo_finance_en-US_h_p_finance_2.png', 
+ 'related': 'AAPL', 
+ 'source': 'Yahoo', 
+ 'summary': 'Apple is stepping up its succession planning efforts, as it prepares for Tim Cook to step down as chief executive as soon as next year. Several...', 
+ 'url': 'https://finnhub.io/api/news?id=559319eb57034717d177db11f2b6f6094d166cad603e59e69bbc0867483975e2'}
+
+
+ rm stocks.db
+
+
+ need to add multi user handling function add user id in stocks table rows.
+
+ fetching today too many times
+
+ npm start
+
+ backend
+ uvicorn main:app --reload
+ npm run dev
