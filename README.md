@@ -55,7 +55,14 @@ This project is a full-stack stock dashboard application that allows users to tr
 
 ![SQL database ER diagram](https://github.com/ykydh/Portfolio/blob/main/projects/Codes/stockApp/resources/Screenshot%202025-11-18%20at%2016.37.22.png)
 
-![Dashboard](https://github.com/ykydh/Portfolio/blob/main/projects/displays/Pics/Screenshot%202026-05-23%20at%2015.15.00.png)
+<p align="center">
+  <img
+    src="https://github.com/ykydh/Portfolio/blob/main/projects/displays/Pics/Screenshot%202026-05-23%20at%2015.15.00.png?raw=true"
+    alt="Dashboard"
+    width="600"
+  />
+</p>
+
 
 
 <p align="center">
