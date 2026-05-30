@@ -19,7 +19,7 @@ Hi, I’m Yutaro! A passionate junior studying Computer Science at **Missouri Un
 ---
 
 ### 📄 **Documents**
-- [Resume](https://github.com/ykydh/Portfolio/blob/main/projects/resume8-1.pdf)  
+- [Resume](https://github.com/ykydh/Portfolio/blob/main/projects/resume2-16.pdf)  
 - [LinkedIn](https://www.linkedin.com/in/yutaro-kiyota-0b8ab7307/)
 
 ---
@@ -55,7 +55,14 @@ This project is a full-stack stock dashboard application that allows users to tr
 
 ![SQL database ER diagram](https://github.com/ykydh/Portfolio/blob/main/projects/Codes/stockApp/resources/Screenshot%202025-11-18%20at%2016.37.22.png)
 
+![Dashboard](https://github.com/ykydh/Portfolio/blob/main/projects/displays/Pics/Screenshot%202026-05-23%20at%2015.15.00.png)
 
+
+<p align="center">
+  <img src="https://github.com/ykydh/Portfolio/blob/main/projects/displays/Pics/Screenshot%202026-05-23%20at%2015.15.15.png" width="30%" />
+  <img src="https://github.com/ykydh/Portfolio/blob/main/projects/displays/Pics/Screenshot%202026-05-23%20at%2015.15.43.png" width="30%" />
+  <img src="https://github.com/ykydh/Portfolio/blob/main/projects/displays/Pics/Screenshot%202026-05-23%20at%2015.15.57.png" width="30%" />
+</p>
 
 #### ♦ TCP ethernet file transfer scheme
 A C++ client-server file transfer system over TCP sockets.
