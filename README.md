@@ -59,7 +59,7 @@ This project is a full-stack stock dashboard application that allows users to tr
   <img
     src="https://github.com/ykydh/Portfolio/blob/main/projects/displays/Pics/Screenshot%202026-05-23%20at%2015.15.00.png?raw=true"
     alt="Dashboard"
-    width="600"
+    width="300"
   />
 </p>
 
