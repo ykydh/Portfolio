@@ -53,8 +53,10 @@ Year: Junior
 #### ♦ Stock Prediction (ML) app
 This project is a full-stack stock dashboard application that allows users to track, analyze, and simulate trading activity in real time. The system integrates a Python-based backend (FastAPI) with a lightweight React frontend to display live stock data, including top-performing stocks, individual stock search, and portfolio insights. It combines historical price data with machine learning (XGBoost) and news sentiment analysis (FinBERT) to make a predictions of next day's stock price, enabling users to visualize actual versus predicted trends on interactive charts. The application also supports buy and sell functionality, updating portfolio data dynamically while calculating gains, percentage changes, and performance indicators relative to purchase price. This project demonstrates my ability to design end to end systems, handle asynchronous data pipelines, integrate external APIs, and build responsive user interfaces for data-driven decision making.
 
+##### **SQL Database ER Diagram** #####
 ![SQL database ER diagram](https://github.com/ykydh/Portfolio/blob/main/projects/Codes/stockApp/resources/Screenshot%202025-11-18%20at%2016.37.22.png)
 
+##### **App Dashboard** #####
 <p align="center">
   <img
     src="https://github.com/ykydh/Portfolio/blob/main/projects/displays/Pics/Screenshot%202026-05-23%20at%2015.15.00.png?raw=true"
@@ -64,7 +66,7 @@ This project is a full-stack stock dashboard application that allows users to tr
 </p>
 
 
-
+##### **Prediction Examples** #####
 <p align="center">
   <img src="https://github.com/ykydh/Portfolio/blob/main/projects/displays/Pics/Screenshot%202026-05-23%20at%2015.15.15.png" width="30%" />
   <img src="https://github.com/ykydh/Portfolio/blob/main/projects/displays/Pics/Screenshot%202026-05-23%20at%2015.15.43.png" width="30%" />
