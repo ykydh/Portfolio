@@ -4,12 +4,6 @@
 <h1>Yutaro Kiyota</h1>
 
 <p>
-  <strong>Embedded Systems</strong> ·
-  <strong>Software Development</strong> ·
-  <strong>Computer Science Student</strong>
-</p>
-
-<p>
   Computer Science junior at <strong>Missouri University of Science & Technology</strong><br />
   interested in embedded systems, networking, machine learning, and practical software projects.
 </p>
