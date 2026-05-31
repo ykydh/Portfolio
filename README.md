@@ -26,8 +26,8 @@ Hi, I’m Yutaro! A passionate junior studying Computer Science at **Missouri Un
 
 ### 🛠️ **Skills**
 
-- C++ / Python / SQL  
-- Data Structures / Algorithm  
+- C++ / Python / SQL / TypeScript / REACT / RTOS
+- Data Structures / Algorithm / Machine Learning
 - Technical Writing  
 - Leadership & Communication
   
