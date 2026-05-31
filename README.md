@@ -1,128 +1,261 @@
-<!-- HEADER BANNER -->
-<p align="center">
-  <img 
-    src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=200&section=header&text=Yutaro%20Kiyota&fontSize=40&fontAlignY=40&desc=Embedded%20Systems%20%7C%20Software%20Development%20%7C%20CS%20Student&descAlignY=60&animation=fadeIn"
-    width="100%" 
-  />
+<!-- HEADER -->
+<div align="center">
 
-  <img src="https://skillicons.dev/icons?i=cpp,python,html,linux,git,vscode,mysql" />
+<img
+  src="https://capsule-render.vercel.app/api?type=rect&color=0:111827,100:0f766e&height=150&section=header&text=Yutaro%20Kiyota&fontColor=ffffff&fontSize=42&desc=Embedded%20Systems%20%7C%20Software%20Development%20%7C%20Computer%20Science&descColor=ccfbf1&descSize=16"
+  width="100%"
+  alt="Yutaro Kiyota"
+/>
+
+<br />
+
+<img
+  src="https://skillicons.dev/icons?i=cpp,python,typescript,react,html,linux,git,vscode,mysql"
+  alt="C++, Python, TypeScript, React, HTML, Linux, Git, VS Code, MySQL"
+/>
+
+<br />
+<br />
+
+<a href="https://github.com/ykydh/Portfolio/blob/main/projects/resume2-16.pdf">
+  <img src="https://img.shields.io/badge/Resume-111827?style=flat&logo=readthedocs&logoColor=white" alt="Resume" />
+</a>
+<a href="https://www.linkedin.com/in/yutaro-kiyota-0b8ab7307/">
+  <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white" alt="LinkedIn" />
+</a>
+<a href="mailto:ykydh@umsystem.edu">
+  <img src="https://img.shields.io/badge/Email-D14836?style=flat&logo=gmail&logoColor=white" alt="Email" />
+</a>
+
+</div>
+
+---
+
+## About Me
+
+Hi, I’m **Yutaro Kiyota**, a Computer Science junior at **Missouri University of Science & Technology**.
+
+I’m interested in building software that connects closely with real systems: embedded devices, networking, data pipelines, and full-stack applications. I also contribute to a satellite research team and work as a Senior Resident Assistant.
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+<h3>Current Focus</h3>
+
+<ul>
+  <li>Embedded systems and RTOS development</li>
+  <li>C++ and systems programming</li>
+  <li>Full-stack software projects</li>
+  <li>Machine learning applications</li>
+</ul>
+
+</td>
+<td width="50%" valign="top">
+
+<h3>Background</h3>
+
+<ul>
+  <li>Senior Resident Assistant</li>
+  <li>Satellite Research Team contributor</li>
+  <li>Running and fitness enthusiast</li>
+  <li>Native Japanese speaker, fluent in English</li>
+</ul>
+
+</td>
+</tr>
+</table>
+
+---
+
+## Education
+
+**Missouri University of Science & Technology**  
+**Major:** Computer Science  
+**Year:** Junior
+
+---
+
+## Skills
+
+| Area | Tools and Topics |
+|---|---|
+| Programming | C++, Python, SQL, TypeScript, React |
+| Systems | Linux, RTOS, TCP/IP, Embedded Development |
+| Web Development | FastAPI, React, HTML |
+| Computer Science | Data Structures, Algorithms, Machine Learning |
+| Professional | Technical Writing, Leadership, Communication |
+
+---
+
+## Programming Portfolio
+
+### Stock Prediction ML App
+
+<table>
+<tr>
+<td width="52%" valign="top">
+
+<p>
+A full-stack stock dashboard for tracking live stock data, simulating trades, and visualizing predicted price movement.
 </p>
 
-# **Yutaro Kiyota**
-
-Hi, I’m Yutaro! A passionate junior studying Computer Science at **Missouri University of Science & Technology**.
- 
-- Into Embedded Systems & Software Development  
-- Senior Resident Assistant & Satellite Research Team Contributor  
-- Running & Fitness enthusiast  
-
----
-
-### 📄 **Documents**
-- [Resume](https://github.com/ykydh/Portfolio/blob/main/projects/resume2-16.pdf)  
-- [LinkedIn](https://www.linkedin.com/in/yutaro-kiyota-0b8ab7307/)
-
----
-
-### 🛠️ **Skills**
-
-- C++ / Python / SQL / TypeScript / REACT / RTOS
-- Data Structures / Algorithm / Machine Learning
-- Technical Writing  
-- Leadership & Communication
-  
----
-
-### 🎓 **Education**
-***Missouri University of Science & Technology***
-</p>
-Major: Computer Science
-</p>
-Year: Junior
+<p>
+The application combines a <strong>FastAPI backend</strong>, a <strong>React frontend</strong>, historical price data, machine learning with <strong>XGBoost</strong>, and news sentiment analysis with <strong>FinBERT</strong>.
 </p>
 
----
-### 🌐 **Languages**
-- 🇯🇵 Japanese — Native  
-- 🇺🇸 English — Fluent
+<p><strong>Highlights</strong></p>
 
----
+<ul>
+  <li>Live stock search and dashboard views</li>
+  <li>Simulated buy and sell portfolio system</li>
+  <li>Next-day stock price prediction</li>
+  <li>News sentiment analysis</li>
+  <li>Actual-vs-predicted trend visualization</li>
+  <li>SQL database integration</li>
+</ul>
 
-### **Programming Portfolio**
+</td>
+<td width="48%" valign="top">
 
-#### ♦ Stock Prediction (ML) app
-This project is a full-stack stock dashboard application that allows users to track, analyze, and simulate trading activity in real time. The system integrates a Python-based backend (FastAPI) with a lightweight React frontend to display live stock data, including top-performing stocks, individual stock search, and portfolio insights. It combines historical price data with machine learning (XGBoost) and news sentiment analysis (FinBERT) to make a predictions of next day's stock price, enabling users to visualize actual versus predicted trends on interactive charts. The application also supports buy and sell functionality, updating portfolio data dynamically while calculating gains, percentage changes, and performance indicators relative to purchase price. This project demonstrates my ability to design end to end systems, handle asynchronous data pipelines, integrate external APIs, and build responsive user interfaces for data-driven decision making.
+<img
+  src="https://github.com/ykydh/Portfolio/blob/main/projects/displays/Pics/Screenshot%202026-05-23%20at%2015.15.00.png?raw=true"
+  alt="Stock dashboard"
+  width="100%"
+/>
 
-##### **- SQL Database ER Diagram** #####
-![SQL database ER diagram](https://github.com/ykydh/Portfolio/blob/main/projects/Codes/stockApp/resources/Screenshot%202025-11-18%20at%2016.37.22.png)
+</td>
+</tr>
+</table>
 
-##### **- App Dashboard** #####
+#### SQL Database ER Diagram
+
 <p align="center">
   <img
-    src="https://github.com/ykydh/Portfolio/blob/main/projects/displays/Pics/Screenshot%202026-05-23%20at%2015.15.00.png?raw=true"
-    alt="Dashboard"
-    width="300"
+    src="https://github.com/ykydh/Portfolio/blob/main/projects/Codes/stockApp/resources/Screenshot%202025-11-18%20at%2016.37.22.png?raw=true"
+    alt="SQL database ER diagram"
+    width="720"
   />
 </p>
 
+#### Prediction Examples
 
-##### **- Prediction Examples** #####
 <p align="center">
-  <img src="https://github.com/ykydh/Portfolio/blob/main/projects/displays/Pics/Screenshot%202026-05-23%20at%2015.15.15.png" width="30%" />
-  <img src="https://github.com/ykydh/Portfolio/blob/main/projects/displays/Pics/Screenshot%202026-05-23%20at%2015.15.43.png" width="30%" />
-  <img src="https://github.com/ykydh/Portfolio/blob/main/projects/displays/Pics/Screenshot%202026-05-23%20at%2015.15.57.png" width="30%" />
+  <img src="https://github.com/ykydh/Portfolio/blob/main/projects/displays/Pics/Screenshot%202026-05-23%20at%2015.15.15.png?raw=true" alt="Prediction example 1" width="31%" />
+  <img src="https://github.com/ykydh/Portfolio/blob/main/projects/displays/Pics/Screenshot%202026-05-23%20at%2015.15.43.png?raw=true" alt="Prediction example 2" width="31%" />
+  <img src="https://github.com/ykydh/Portfolio/blob/main/projects/displays/Pics/Screenshot%202026-05-23%20at%2015.15.57.png?raw=true" alt="Prediction example 3" width="31%" />
 </p>
 
-#### **Reflection** ####
+<details>
+<summary><strong>Project Reflection</strong></summary>
 
-This project was developed to explore the application of machine learning and data analysis techniques in stock price prediction. Through this project, I gained experience working with financial data, designing a data pipeline, training predictive models, and building a full-stack application that allows users to visualize historical and predicted stock prices.
+This project helped me understand both the usefulness and limitations of machine learning in financial prediction. Historical trends can reveal patterns, but stock prices are also affected by earnings reports, economic news, geopolitical events, company announcements, and broader market sentiment.
 
-One of the most important lessons learned is that stock markets are inherently difficult to predict. While the model can identify trends and patterns from historical data, its accuracy decreases significantly when unexpected events occur. Major economic announcements, geopolitical conflicts, company-specific news, earnings surprises, market sentiment shifts, and other unforeseen factors can cause drastic price movements that historical data alone cannot adequately capture.
+Because of that, the predictions generated by this application should be viewed as estimates rather than financial advice. The model is more useful in stable market conditions and less reliable during sudden volatility.
 
-As a result, the predictions generated by this application should be viewed as estimates rather than financial advice. The model performs best during relatively stable market conditions where historical trends remain relevant, but it may struggle during periods of high volatility or sudden market disruptions.
+Future improvements could include financial statements, economic indicators, social media sentiment, real-time market events, more advanced forecasting architectures, and uncertainty estimates so users can better understand prediction confidence.
 
-Another limitation is that the model primarily relies on historical stock price data. Future improvements could include incorporating additional data sources such as financial statements, economic indicators, news sentiment analysis, social media sentiment, and real-time market events to improve prediction quality.
-
-Despite these limitations, the project successfully demonstrates how machine learning can be applied to financial datasets and provides a practical platform for exploring stock market forecasting techniques. The experience gained from designing, implementing, and evaluating the system has provided valuable insights into both software development and the challenges of predictive modeling in real-world environments.
-
-Future development may focus on improving model robustness, integrating alternative data sources, implementing more advanced forecasting architectures, and providing better uncertainty estimates so users can understand the confidence level of each prediction.
-#### ♦ TCP ethernet file transfer scheme
-A C++ client-server file transfer system over TCP sockets.
-
-This project is a TCP-based client-server application written in C++.<br />
-It allows clients to send either message or binary files (eg.images) to a server.<br />
-The system handles data packetization, transmission over sockets and reassembly into the original file or message.<br />
-- Implemented using Berkeley sockets(socket, bind, listen, accept, connect, recv, send).
-- Supprt two modes
-  - Message Mode: Send plain text message between client and server.
-  - File Mode: Send arbitrary binary files (e.g., .jpg, .pdf)
-- Specification
-  - Split data into 4096-byte packet
-  - Prepends header with total data size to keep track of transferred data size.
-
-![TCP message transfer](https://github.com/ykydh/Portfolio/blob/main/projects/displays/Pics/message.jpeg)
-
-#### ♦ Tree Map (Binary Search Tree)  
-Recreating a simplified `std::map` using a BST.  
-- Parses input character frequency into mapped ASCII  
-- Demonstrates core map operations using templated nodes  
-
-**Links:** [Main](https://github.com/ykydh/Portfolio/blob/main/projects/Codes/map/main.cpp) | [TreeNode](https://github.com/ykydh/Portfolio/blob/main/projects/Codes/map/TreeNode.h) | [MyMap.h](https://github.com/ykydh/Portfolio/blob/main/projects/Codes/map/MyMap.h) | [MyMap.hpp](https://github.com/ykydh/Portfolio/blob/main/projects/Codes/map/MyMap.hpp)
+</details>
 
 ---
 
-#### ♦ Black Jack  
-A single-player Black Jack game with a twist:  
-- Dynamic advice system with risk-reward balance  
-- Different payouts depending on user decision-making  
+### TCP Ethernet File Transfer Scheme
 
-**Links:** [Main](https://github.com/ykydh/Portfolio/blob/main/projects/Codes/Black/Jack.cpp) | [Header](https://github.com/ykydh/Portfolio/blob/main/projects/Codes/Black/Black5.h) | [Implementation](https://github.com/ykydh/Portfolio/blob/main/projects/Codes/Black/Black5.cpp)
+<table>
+<tr>
+<td width="52%" valign="top">
+
+<p>
+A C++ client-server file transfer system built with TCP sockets. The application allows clients to send either plain text messages or binary files, such as images and PDFs, to a server.
+</p>
+
+<p><strong>Highlights</strong></p>
+
+<ul>
+  <li>Built with Berkeley sockets</li>
+  <li>Uses <code>socket</code>, <code>bind</code>, <code>listen</code>, <code>accept</code>, <code>connect</code>, <code>recv</code>, and <code>send</code></li>
+  <li>Supports message transfer and binary file transfer</li>
+  <li>Splits data into 4096-byte packets</li>
+  <li>Sends a header with the total data size for reconstruction</li>
+</ul>
+
+</td>
+<td width="48%" valign="top">
+
+<img
+  src="https://github.com/ykydh/Portfolio/blob/main/projects/displays/Pics/message.jpeg?raw=true"
+  alt="TCP message transfer"
+  width="100%"
+/>
+
+</td>
+</tr>
+</table>
 
 ---
 
-#### ♦ Ongoing: Machine Learning in C++  
-- Implements spiral dataset generation  
-- Activation functions: ReLU & Softmax  
+### Additional C++ Projects
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+<h3>Tree Map</h3>
+
+<p>
+A simplified version of <code>std::map</code> implemented with a Binary Search Tree.
+</p>
+
+<ul>
+  <li>Parses character frequency input</li>
+  <li>Maps values to ASCII characters</li>
+  <li>Demonstrates templated node-based map operations</li>
+</ul>
+
+<p>
+<a href="https://github.com/ykydh/Portfolio/blob/main/projects/Codes/map/main.cpp">Main</a> ·
+<a href="https://github.com/ykydh/Portfolio/blob/main/projects/Codes/map/TreeNode.h">TreeNode</a> ·
+<a href="https://github.com/ykydh/Portfolio/blob/main/projects/Codes/map/MyMap.h">MyMap.h</a> ·
+<a href="https://github.com/ykydh/Portfolio/blob/main/projects/Codes/map/MyMap.hpp">MyMap.hpp</a>
+</p>
+
+</td>
+<td width="50%" valign="top">
+
+<h3>Black Jack</h3>
+
+<p>
+A single-player Black Jack game with a dynamic advice system and risk-reward payout behavior.
+</p>
+
+<ul>
+  <li>Provides advice based on the current game state</li>
+  <li>Changes payouts depending on user decisions</li>
+  <li>Separates interface and implementation across source files</li>
+</ul>
+
+<p>
+<a href="https://github.com/ykydh/Portfolio/blob/main/projects/Codes/Black/Jack.cpp">Main</a> ·
+<a href="https://github.com/ykydh/Portfolio/blob/main/projects/Codes/Black/Black5.h">Header</a> ·
+<a href="https://github.com/ykydh/Portfolio/blob/main/projects/Codes/Black/Black5.cpp">Implementation</a>
+</p>
+
+</td>
+</tr>
+</table>
+
+---
+
+### Ongoing: Machine Learning in C++
+
+A C++ learning project focused on implementing neural-network fundamentals from scratch.
+
+- Spiral dataset generation
+- ReLU and Softmax activation functions
+- Vector-based data handling
+
+<details>
+<summary><strong>Sample: spiral dataset generator</strong></summary>
 
 ```cpp
 std::pair<std::vector<std::vector<double>>, std::vector<int>>
@@ -139,60 +272,90 @@ create_data(int points, int classes) {
       int index = points * class_number + i;
       double r = static_cast<double>(i) / points;
       double t = class_number * 4 + 4.0 * i / points + noise(gen);
+
       X[index][0] = r * sin(t * 2.5);
       X[index][1] = r * cos(t * 2.5);
       y[index] = class_number;
     }
   }
+
   return std::make_pair(X, y);
 }
 ```
 
----
-## 📝 **Technical Writing Portfolio**
-
-The following documents detail a usability experiment conducted on the Microsoft To Do application:
-
-- **The Proposal** outlines the experiment’s methodology, its expected benefits, the required personnel and equipment, a proposed schedule, and the informed consent form.
-- **The Usability Testing** includes a detailed test plan with clearly defined user tasks, a system for calculating error rates, a structured test log for observation recording, and thoughtfully designed pre- and post-screening questionnaires to gather feedback.
-- **The Recommendation Report** provides an in-depth summary of findings and analysis, evaluating the usability and effectiveness of Microsoft To Do. It concludes with actionable recommendations to improve its intuitiveness and user-friendliness.
-
-### 🔍 **What I Learned from This Project**
-
-- **Effective Audience Analysis**  
-  I developed the ability to assess target audiences and tailor messages to resonate with their specific expectations and needs.
-
-- **Clarity and Precision in Writing**  
-  I learned to structure documents for maximum clarity and engagement, using formatting and language that make content accessible and persuasive.
-
-- **Data Analysis and Prioritization**  
-  I gained experience identifying patterns in user behavior and prioritizing issues based on impact and urgency.
-
-- **Visual Communication**  
-  I became proficient in using charts, graphs, and tables to present information in a way that is both accurate and visually impactful, choosing representations that support clear decision-making.
-
-<ins>*Click on the images below to view each document in full.*</ins>
+</details>
 
 ---
 
-## 📄 **Proposal**
-[![Proposal Preview](https://github.com/ykydh/Portfolio/blob/main/projects/displays/Proposal/Proposal-2.png)](https://github.com/ykydh/Portfolio/blob/main/projects/Proposal.pdf)
+## Technical Writing Portfolio
 
----
+These documents come from a usability experiment on the Microsoft To Do application. The project included a proposal, a usability test plan, and a recommendation report based on observed user behavior.
 
-## 🧪 **Usability Testing**
-[![Usability Test Preview](https://github.com/ykydh/Portfolio/blob/main/projects/displays/Usability%20Test/Usability%20Test-01.png)](https://github.com/ykydh/Portfolio/blob/main/projects/Usability%20Test.pdf)
+<p><em>Click a preview to open the full document.</em></p>
 
----
+<table>
+<tr>
+<td width="33%" align="center" valign="top">
 
-## 📊 **Recommendation Report**
-[![Recommendation Report Preview](https://github.com/ykydh/Portfolio/blob/main/projects/displays/Recommendation/Recommendation-02.png)](https://github.com/ykydh/Portfolio/blob/main/projects/Recommendation.pdf)
+<a href="https://github.com/ykydh/Portfolio/blob/main/projects/Proposal.pdf">
+  <img src="https://github.com/ykydh/Portfolio/blob/main/projects/displays/Proposal/Proposal-2.png?raw=true" alt="Proposal preview" width="100%" />
+</a>
 
----
+<strong>Proposal</strong>
 
-## 🤝 Connect with Me
-
-<p align="center">
-  <a href="https://www.linkedin.com/in/ykydh-0b8ab7307/" target="blank"><img align="center" src="https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
-  <a href="mailto:ykydh@umsystem.edu"><img align="center" src="https://img.shields.io/badge/Gmail-D14836?style=flat&logo=gmail&logoColor=white" alt="Gmail" /></a>
+<p>
+Experiment methodology, expected benefits, personnel, equipment, schedule, and consent form.
 </p>
+
+</td>
+<td width="33%" align="center" valign="top">
+
+<a href="https://github.com/ykydh/Portfolio/blob/main/projects/Usability%20Test.pdf">
+  <img src="https://github.com/ykydh/Portfolio/blob/main/projects/displays/Usability%20Test/Usability%20Test-01.png?raw=true" alt="Usability testing preview" width="100%" />
+</a>
+
+<strong>Usability Testing</strong>
+
+<p>
+Task design, error-rate tracking, observation logs, and pre/post-test questionnaires.
+</p>
+
+</td>
+<td width="33%" align="center" valign="top">
+
+<a href="https://github.com/ykydh/Portfolio/blob/main/projects/Recommendation.pdf">
+  <img src="https://github.com/ykydh/Portfolio/blob/main/projects/displays/Recommendation/Recommendation-02.png?raw=true" alt="Recommendation report preview" width="100%" />
+</a>
+
+<strong>Recommendation Report</strong>
+
+<p>
+Findings, analysis, and recommendations for improving usability and user experience.
+</p>
+
+</td>
+</tr>
+</table>
+
+### What I Learned
+
+- **Audience Analysis:** I learned how to assess users and write for their expectations, needs, and context.
+- **Clear Technical Writing:** I practiced organizing information so readers can understand goals, methods, and results quickly.
+- **Data Analysis:** I gained experience identifying patterns in user behavior and prioritizing issues by impact.
+- **Visual Communication:** I used charts, tables, and structured layouts to make findings easier to interpret.
+
+---
+
+## Connect
+
+<div align="center">
+
+<a href="https://www.linkedin.com/in/yutaro-kiyota-0b8ab7307/">
+  <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white" alt="LinkedIn" />
+</a>
+<a href="mailto:ykydh@umsystem.edu">
+  <img src="https://img.shields.io/badge/Email-D14836?style=flat&logo=gmail&logoColor=white" alt="Email" />
+</a>
+
+</div>
+
