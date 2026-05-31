@@ -2,32 +2,45 @@
 <div align="center">
 
 <img
-  src="https://capsule-render.vercel.app/api?type=rect&color=0:111827,100:0f766e&height=150&section=header&text=Yutaro%20Kiyota&fontColor=ffffff&fontSize=42&desc=Embedded%20Systems%20%7C%20Software%20Development%20%7C%20Computer%20Science&descColor=ccfbf1&descSize=16"
+  src="https://capsule-render.vercel.app/api?type=venom&height=120&color=0:0f172a,100:0f766e&section=header&reversal=false"
   width="100%"
-  alt="Yutaro Kiyota"
+  alt="Header decoration"
 />
 
-<br />
+<h1>Yutaro Kiyota</h1>
+
+<p>
+  <strong>Embedded Systems</strong> ·
+  <strong>Software Development</strong> ·
+  <strong>Computer Science Student</strong>
+</p>
+
+<p>
+  Computer Science junior at <strong>Missouri University of Science & Technology</strong><br />
+  interested in embedded systems, networking, machine learning, and practical software projects.
+</p>
+
+<p>
+  <a href="https://github.com/ykydh/Portfolio/blob/main/projects/resume2-16.pdf">
+    <img src="https://img.shields.io/badge/Resume-111827?style=flat&logo=readthedocs&logoColor=white" alt="Resume" />
+  </a>
+  <a href="https://www.linkedin.com/in/yutaro-kiyota-0b8ab7307/">
+    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white" alt="LinkedIn" />
+  </a>
+  <a href="mailto:ykydh@umsystem.edu">
+    <img src="https://img.shields.io/badge/Email-D14836?style=flat&logo=gmail&logoColor=white" alt="Email" />
+  </a>
+</p>
 
 <img
   src="https://skillicons.dev/icons?i=cpp,python,typescript,react,html,linux,git,vscode,mysql"
   alt="C++, Python, TypeScript, React, HTML, Linux, Git, VS Code, MySQL"
 />
 
-<br />
-<br />
-
-<a href="https://github.com/ykydh/Portfolio/blob/main/projects/resume2-16.pdf">
-  <img src="https://img.shields.io/badge/Resume-111827?style=flat&logo=readthedocs&logoColor=white" alt="Resume" />
-</a>
-<a href="https://www.linkedin.com/in/yutaro-kiyota-0b8ab7307/">
-  <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white" alt="LinkedIn" />
-</a>
-<a href="mailto:ykydh@umsystem.edu">
-  <img src="https://img.shields.io/badge/Email-D14836?style=flat&logo=gmail&logoColor=white" alt="Email" />
-</a>
-
 </div>
+
+---
+
 
 ---
 
