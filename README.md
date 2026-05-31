@@ -1,12 +1,6 @@
 <!-- HEADER -->
 <div align="center">
 
-<img
-  src="https://capsule-render.vercel.app/api?type=venom&height=120&color=0:0f172a,100:0f766e&section=header&reversal=false"
-  width="100%"
-  alt="Header decoration"
-/>
-
 <h1>Yutaro Kiyota</h1>
 
 <p>
@@ -38,9 +32,6 @@
 />
 
 </div>
-
----
-
 
 ---
 
