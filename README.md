@@ -78,7 +78,7 @@ I’m interested in building software that connects closely with real systems: e
 
 | Area | Tools and Topics |
 |---|---|
-| Programming | C++, Python, SQL, TypeScript, React |
+| Programming | C++, Python, SQL, TypeScript, React, Zephyr(RTOS) |
 | Systems | Linux, RTOS, TCP/IP, Embedded Development |
 | Web Development | FastAPI, React, HTML |
 | Computer Science | Data Structures, Algorithms, Machine Learning |
@@ -86,7 +86,7 @@ I’m interested in building software that connects closely with real systems: e
 
 ---
 
-## Programming Portfolio
+## Project Portfolio
 
 ### Stock Prediction ML App
 
