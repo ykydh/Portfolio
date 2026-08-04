@@ -35,7 +35,7 @@ Hi, I’m **Yutaro Kiyota**, a Computer Science student at **Missouri University
 
 I enjoy developing software that interacts with real-world systems, including embedded devices, communication networks, and data-driven applications. My current focus is embedded systems, RTOS development, C/C++ programming, and software engineering.
 
-I contribute to a CubeSat flight software research team, where I develop communication modules and operating system abstractions for satellite software. I also work as a Senior Resident Assistant, developing leadership, communication, and mentoring skills.
+I contribute to a CubeSat flight software research team, where I develop communication modules and operating system abstractions for satellite software. I also worked as a Senior Resident Assistant, developing leadership, communication, and mentoring skills.
 
 ---
 
@@ -162,26 +162,29 @@ Integrating multiple peripherals also required understanding different driver ar
 <td width="52%" valign="top">
 
 <p>
-A full-stack machine learning application that combines financial data processing, natural language processing, and predictive modeling to estimate next-day stock price movement.
+A full-stack machine learning application that combines financial data processing, natural language processing, database design, and predictive modeling to analyze stock market trends.
 </p>
 
 <p>
-The system integrates a <strong>FastAPI backend</strong>, <strong>React frontend</strong>, SQL database, <strong>XGBoost regression</strong>, and <strong>FinBERT sentiment analysis</strong> to analyze historical market data and financial news.
+The system uses <strong>FinBERT</strong> for financial news sentiment analysis and <strong>XGBoost regression</strong> to predict next-day stock price movement using historical market data and sentiment-based features.
 </p>
 
 <p><strong>Highlights</strong></p>
 
 <ul>
-  <li>Built an end-to-end ML pipeline using historical stock data and financial news sentiment features</li>
-  <li>Implemented SQL database structures for storing market data, sentiment analysis results, and model outputs</li>
+  <li>Built an end-to-end ML pipeline combining historical stock data and financial news sentiment analysis</li>
+  <li>Implemented FinBERT-based NLP processing to extract market sentiment from financial news articles</li>
+  <li>Developed an XGBoost regression model using time-series and sentiment features for next-day price movement prediction</li>
+  <li>Designed a relational SQL database schema to store historical prices, news sentiment, model outputs, and application data</li>
+  <li>Implemented database indexing and optimized queries for efficient data retrieval</li>
   <li>Developed REST APIs using FastAPI to provide prediction results and confidence metrics</li>
-  <li>Created interactive React dashboards for visualization of stock trends and predictions</li>
+  <li>Created an interactive React/TypeScript frontend for stock visualization, prediction display, and portfolio simulation</li>
 </ul>
 
 <p><strong>Technologies</strong></p>
 
 <p>
-Python, FastAPI, React, TypeScript, SQL, XGBoost, FinBERT, Machine Learning
+Python, FastAPI, React, TypeScript, SQL, XGBoost, FinBERT, Machine Learning, Data Processing
 </p>
 
 </td>
@@ -194,9 +197,60 @@ Python, FastAPI, React, TypeScript, SQL, XGBoost, FinBERT, Machine Learning
   width="100%"
 />
 
+<p align="center">
+  <em>Stock prediction dashboard and visualization interface</em>
+</p>
+
 </td>
 </tr>
 </table>
+
+
+### Database Design
+
+<p align="center">
+  <img
+    src="https://github.com/ykydh/Portfolio/blob/main/projects/Codes/stockApp/resources/Screenshot%202025-11-18%20at%2016.37.22.png?raw=true"
+    alt="Stock prediction SQL database ER diagram"
+    width="720"
+  />
+</p>
+
+<p align="center">
+  <em>Relational SQL database schema and entity relationship design</em>
+</p>
+
+
+### Prediction Demonstrations
+
+<p align="center">
+
+<img 
+src="https://github.com/ykydh/Portfolio/blob/main/projects/displays/Pics/Screenshot%202026-05-23%20at%2015.15.15.png?raw=true"
+alt="Prediction example 1"
+width="31%"
+/>
+
+<img 
+src="https://github.com/ykydh/Portfolio/blob/main/projects/displays/Pics/Screenshot%202026-05-23%20at%2015.15.43.png?raw=true"
+alt="Prediction example 2"
+width="31%"
+/>
+
+<img 
+src="https://github.com/ykydh/Portfolio/blob/main/projects/displays/Pics/Screenshot%202026-05-23%20at%2015.15.57.png?raw=true"
+alt="Prediction example 3"
+width="31%"
+/>
+
+</p>
+
+
+### Engineering Reflection
+
+This project helped me understand both the capabilities and limitations of machine learning in financial applications. While historical price trends and sentiment analysis can reveal patterns, stock prices are also influenced by external factors such as economic events, company announcements, and unexpected market changes.
+
+Through developing this system, I learned that machine learning models are most effective when combined with carefully designed data pipelines, meaningful feature engineering, and clear visualization of model confidence. Future improvements could include incorporating additional financial indicators, real-time market events, alternative sentiment sources, and more advanced forecasting approaches.
 
 ---
 
