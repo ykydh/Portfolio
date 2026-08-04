@@ -157,6 +157,79 @@ Future improvements could include financial statements, economic indicators, soc
 
 ---
 
+### Embedded Spatial Audio Calibration System
+
+<table>
+<tr>
+<td width="52%" valign="top">
+
+<p>
+An embedded audio calibration and control system built on <strong>Zephyr RTOS</strong> using the <strong>Raspberry Pi Pico W</strong>. The system integrates embedded peripherals, device communication, and Python-based signal processing to measure speaker characteristics and perform multi-speaker audio alignment.
+</p>
+
+<details>
+<summary><strong>Motivation</strong></summary>
+
+Spatial audio systems enhance user experiences by creating immersive and realistic sound environments. However, building multi-speaker spatial audio systems with Bluetooth speakers is challenging because each speaker introduces different buffering and processing delays, causing timing mismatches during playback.
+
+This project aims to simplify spatial audio calibration by developing an embedded sensor and audio measurement module using the Raspberry Pi Pico W. The system captures speaker position information and analyzes audio signals to measure playback latency. The collected data is used to map connected speakers and apply timing compensation, enabling synchronized audio playback across different Bluetooth speakers.
+
+</details>
+
+<p><strong>Highlights</strong></p>
+
+<ul>
+  <li>Developed embedded firmware using Zephyr RTOS with I2C OLED display, VL53L0X ToF sensor, ADC input, GPIO control, and USB CDC ACM communication</li>
+  <li>Designed a JSON-based communication protocol between embedded firmware and a Python desktop application for device configuration, speaker registration, and calibration data logging</li>
+  <li>Implemented speaker latency measurement and synchronization using chirp-based signal detection with Python and NumPy to calculate per-speaker delay compensation</li>
+  <li>Configured Zephyr devicetree overlays, Kconfig settings, and peripheral drivers for embedded hardware integration</li>
+</ul>
+
+<p><strong>Technologies</strong></p>
+
+<p>
+C, Zephyr RTOS, Raspberry Pi Pico W, Python, NumPy, UART, I2C, ADC, GPIO, USB CDC ACM
+</p>
+
+<td width="48%" valign="top">
+
+<img
+  src="YOUR_SENSOR_IMAGE_LINK_HERE"
+  alt="Raspberry Pi Pico W spatial audio calibration hardware prototype"
+  width="100%"
+/>
+
+<p align="center">
+  <em>Raspberry Pi Pico W sensor module prototype</em>
+</p>
+
+<br />
+
+<img
+  src="YOUR_SCHEMATIC_IMAGE_LINK_HERE"
+  alt="KiCad circuit schematic for spatial audio calibration system"
+  width="100%"
+/>
+
+<p align="center">
+  <em>KiCad circuit schematic</em>
+</p>
+
+</td>
+</tr>
+</table>
+
+<details>
+<summary><strong>Reflection</strong></summary>
+
+The most challenging part of this project was configuring and debugging Zephyr RTOS device trees. Many hardware configuration details were not explicitly available in component datasheets, requiring deeper investigation into Zephyr documentation, driver implementations, and system configuration files.
+
+Additionally, integrating multiple peripherals was challenging because each component relied on different drivers and configuration methods. Through this process, I gained a deeper understanding of embedded hardware abstraction, RTOS configuration, and peripheral communication. I also strengthened my ability to debug complex hardware-software interactions by tracing issues across the application layer, drivers, and underlying hardware.
+
+</details>
+
+---
+
 ### TCP Ethernet File Transfer Scheme
 
 <table>
