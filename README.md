@@ -193,7 +193,7 @@ C, Zephyr RTOS, Raspberry Pi Pico W, Python, NumPy, UART, I2C, ADC, GPIO, USB CD
 
 <td width="48%" valign="top">
 <img
-  src="https://github.com/ykydh/Portfolio/blob/main/projects/Sensors.png?raw=true"
+  src="https://github.com/ykydh/Portfolio/blob/main/projects/Sensors.jpeg?raw=true"
   alt="Raspberry Pi Pico W spatial audio calibration hardware prototype"
   width="100%"
 />
@@ -315,7 +315,7 @@ A single-player Black Jack game with a dynamic advice system and risk-reward pay
 
 ---
 
-### Ongoing: Machine Learning in C++
+### Machine Learning in C++
 
 A C++ learning project focused on implementing neural-network fundamentals from scratch.
 
