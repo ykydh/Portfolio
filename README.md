@@ -233,10 +233,6 @@ alt="Prediction example 1"
 width="100%"
 />
 
-<p>
-<em>Prediction result visualization</em>
-</p>
-
 </td>
 
 <td width="33%" align="center">
@@ -247,10 +243,6 @@ alt="Prediction example 2"
 width="100%"
 />
 
-<p>
-<em>Model output comparison</em>
-</p>
-
 </td>
 
 <td width="33%" align="center">
@@ -260,10 +252,6 @@ src="https://github.com/ykydh/Portfolio/blob/main/projects/displays/Pics/Screens
 alt="Prediction example 3"
 width="100%"
 />
-
-<p>
-<em>Prediction confidence visualization</em>
-</p>
 
 </td>
 
