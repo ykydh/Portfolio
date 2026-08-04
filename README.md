@@ -205,11 +205,9 @@ C, Zephyr RTOS, Raspberry Pi Pico W, Python, NumPy, UART, I2C, ADC, GPIO, USB CD
 
 <br />
 
-<img
-  <img src="https://github.com/ykydh/Portfolio/blob/main/projects/Schematic.pdf?raw=true">
-  alt="KiCad circuit schematic for spatial audio calibration system"
-  width="100%"
-/>
+<a href="https://github.com/ykydh/Portfolio/blob/main/projects/Schematic.pdf">
+  View KiCad Circuit Schematic (PDF)
+</a>
 
 <p align="center">
   <em>KiCad circuit schematic</em>
