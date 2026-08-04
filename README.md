@@ -223,28 +223,52 @@ Python, FastAPI, React, TypeScript, SQL, XGBoost, FinBERT, Machine Learning, Dat
 
 ### Prediction Demonstrations
 
-<p align="center">
+<table>
+<tr>
+<td width="33%" align="center">
 
 <img 
 src="https://github.com/ykydh/Portfolio/blob/main/projects/displays/Pics/Screenshot%202026-05-23%20at%2015.15.15.png?raw=true"
 alt="Prediction example 1"
-width="31%"
+width="100%"
 />
+
+<p>
+<em>Prediction result visualization</em>
+</p>
+
+</td>
+
+<td width="33%" align="center">
 
 <img 
 src="https://github.com/ykydh/Portfolio/blob/main/projects/displays/Pics/Screenshot%202026-05-23%20at%2015.15.43.png?raw=true"
 alt="Prediction example 2"
-width="31%"
+width="100%"
 />
+
+<p>
+<em>Model output comparison</em>
+</p>
+
+</td>
+
+<td width="33%" align="center">
 
 <img 
 src="https://github.com/ykydh/Portfolio/blob/main/projects/displays/Pics/Screenshot%202026-05-23%20at%2015.15.57.png?raw=true"
 alt="Prediction example 3"
-width="31%"
+width="100%"
 />
 
+<p>
+<em>Prediction confidence visualization</em>
 </p>
 
+</td>
+
+</tr>
+</table>
 
 ### Engineering Reflection
 
