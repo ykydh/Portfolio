@@ -9,7 +9,7 @@
 </p>
 
 <p>
-  <a href="https://github.com/ykydh/Portfolio/blob/main/projects/resume2-16.pdf">
+  <a href="https://github.com/ykydh/Portfolio/blob/main/projects/Resume.pdf">
     <img src="https://img.shields.io/badge/Resume-111827?style=flat&logo=readthedocs&logoColor=white" alt="Resume" />
   </a>
   <a href="https://www.linkedin.com/in/yutaro-kiyota-0b8ab7307/">
@@ -137,14 +137,10 @@ C, Zephyr RTOS, Raspberry Pi Pico, LSM6DS3, SPI, UART, Multithreading, Ring Buff
 <td width="48%" valign="top">
 
 <img
-  src="https://github.com/ykydh/Portfolio/blob/main/projects/AeroCore.gif?raw=true"
+  src="https://github.com/ykydh/Portfolio/projects/AeroCore.gif?raw=true"
   alt="AeroCore flight avionics embedded system"
   width="100%"
 />
-
-<p align="center">
-  <em>AeroCore flight avionics architecture</em>
-</p>
 
 </td>
 </tr>
