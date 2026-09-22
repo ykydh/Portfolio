@@ -25,6 +25,18 @@
   alt="C++, C, Python, TypeScript, React, Linux, Git, VS Code, MySQL"
 />
 
+<p align="center">
+
+  <em>AeroCore flight avionics architecture</em>
+
+</p>
+
+</td>
+
+</tr>
+
+</table>
+
 </div>
 
 ---
