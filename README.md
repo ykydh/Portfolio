@@ -146,6 +146,9 @@ C, Zephyr RTOS, Raspberry Pi Pico, LSM6DS3, SPI, UART, Multithreading, Ring Buff
   <em>AeroCore flight avionics architecture</em>
 </p>
 
+</td>
+</tr>
+</table>
 
 ### System Architecture
 
