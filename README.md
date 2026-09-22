@@ -137,7 +137,7 @@ C, Zephyr RTOS, Raspberry Pi Pico, LSM6DS3, SPI, UART, Multithreading, Ring Buff
 <td width="48%" valign="top">
 
 <img
-  src="https://github.com/ykydh/Portfolio/projects/AeroCore.gif?raw=true"
+  src="https://github.com/ykydh/Portfolio/blob/main/projects/AeroCore.gif?raw=true"
   alt="AeroCore flight avionics embedded system"
   width="100%"
 />
