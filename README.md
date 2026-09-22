@@ -87,6 +87,75 @@ Aug 2024 – May 2026
 
 ## Featured Projects
 
+## AeroCore Flight Avionics System
+
+<table>
+<tr>
+<td width="52%" valign="top">
+
+<p>
+A lightweight flight-avionics-style embedded system designed to explore <strong>real-time sensor acquisition, fault-tolerant processing, and telemetry pipelines</strong> using <strong>C</strong> and <strong>Zephyr RTOS</strong> on a Raspberry Pi Pico.
+</p>
+
+<p>
+The system continuously samples an <strong>LSM6DS3 IMU</strong> over SPI, processes sensor data through independent RTOS threads, and transmits telemetry to a host computer for monitoring. The architecture separates high-frequency sensor acquisition from processing and telemetry to maintain predictable sampling behavior.
+</p>
+
+<p><strong>Highlights</strong></p>
+
+<ul>
+  <li>Developed embedded firmware in C using Zephyr RTOS and Raspberry Pi Pico hardware</li>
+  <li>Implemented 100 Hz IMU sensor acquisition using SPI communication with an LSM6DS3 inertial measurement unit</li>
+  <li>Designed a producer-consumer architecture separating sensor sampling from data processing using independent RTOS threads</li>
+  <li>Implemented a ring buffer for transferring IMU samples safely between concurrent threads</li>
+  <li>Used RTOS synchronization primitives to protect shared data structures during concurrent access</li>
+  <li>Converted raw accelerometer and gyroscope measurements into engineering units for downstream processing</li>
+  <li>Implemented 10 Hz telemetry output for host-side monitoring and visualization</li>
+  <li>Designed the system with fault monitoring and watchdog-based recovery concepts for improved reliability</li>
+</ul>
+
+<p><strong>Technologies</strong></p>
+
+<p>
+C, Zephyr RTOS, Raspberry Pi Pico, LSM6DS3, SPI, UART, Multithreading, Ring Buffer, RTOS Synchronization
+</p>
+
+</td>
+
+<td width="48%" valign="top">
+
+<img
+  src="https://github.com/ykydh/Portfolio/blob/main/projects/AeroCore.png?raw=true"
+  alt="AeroCore flight avionics embedded system"
+  width="100%"
+/>
+
+<p align="center">
+  <em>AeroCore flight avionics architecture</em>
+</p>
+
+</td>
+</tr>
+</table>
+
+### System Architecture
+
+<p align="center">
+  <strong>
+    LSM6DS3 IMU → 100 Hz Sampling Thread → Ring Buffer → Processing Thread → 10 Hz Telemetry
+  </strong>
+</p>
+
+The system separates high-frequency sensor acquisition from lower-frequency telemetry and monitoring. The sampling thread prioritizes consistent IMU acquisition, while the processing thread consumes samples from the ring buffer and prepares processed data for telemetry.
+
+This architecture provides a foundation for additional avionics-style reliability features such as watchdog monitoring, fault detection, sensor validation, and safe-state handling.
+
+### Engineering Challenges
+
+A major challenge was designing communication between concurrent RTOS threads while maintaining deterministic sensor acquisition. A ring buffer was used to decouple the producer and consumer threads so that processing does not directly control the timing of sensor sampling.
+
+The project also required configuring Zephyr devicetree and SPI peripherals, implementing register-level IMU communication, and debugging embedded software across hardware and RTOS layers.
+
 ## Embedded Spatial Audio Calibration System
 
 <table>
